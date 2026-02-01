@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ro" lang="ro">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script>
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+// init consent
+window.consentCallbacks = window.consentCallbacks || [];
+
+(function (cookieName) {
+    let cookieValue = "; " + document.cookie;
+    let parts = cookieValue.split("; " + cookieName + "=");
+    let consentState = 'denied'; // default to denied
+
+    if (parts.length > 1) {
+        parts.shift();
+        let mostRecentCookieValue = parts[parts.length - 1].split(";").shift();
+        consentState = (mostRecentCookieValue === 'allow' || mostRecentCookieValue === 'yes') ? 'granted' : 'denied';
+    }
+
+    gtag('consent', 'default', {
+        'ad_storage': consentState,
+        'ad_user_data': consentState,
+        'ad_personalization': consentState,
+        'analytics_storage': consentState,
+        'functionality_storage': 'granted',
+        'personalization_storage': 'granted',
+        'security_storage': 'granted'
+    });
+})('cookiepermission_v3');
+
+consentCallbacks.push(function () {
+    gtag('consent', 'update', {
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted',
+        'analytics_storage': 'granted',
+        'functionality_storage': 'granted',
+        'personalization_storage': 'granted',
+        'security_storage': 'granted'
+    });
+});
+
+function consentGrantedAll() {
+    consentCallbacks.forEach(function (callback) {
+        callback();
+    });
+
+    // run only once
+    consentCallbacks = [];
+}
+dataLayer.push({"pageBodyCssClass":"page-town-view"}); 
+</script>
+<!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NS5F4V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NS5F4V');</script><!-- End Google Tag Manager -->
+    <script>!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,"script",
+"https://connect.facebook.net/en_US/fbevents.js");
+fbq("consent", "revoke");
+
+window.consentCallbacks = window.consentCallbacks || [];
+consentCallbacks.push(function () {
+    fbq("consent", "grant");
+});
+fbq("init", "2252018304868397");
+fbq("track", "PageView");
+</script>    <meta property="fb:app_id" content="647691012015091" />
+<link rel="canonical" href="https://www.iabilet.ro/bilete-in-sibiu/" />
+<link rel="stylesheet" type="text/css" href="https://static3.iabilet.ro/assets/v.1769785139/271013fc/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="https://static.iabilet.ro/include/lib-v.1769785139/jquery-blockui/jquery.blockUI.css" />
+<link rel="stylesheet" type="text/css" href="https://static.iabilet.ro/include/lib-v.1769785139/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" />
+<link rel="stylesheet" type="text/css" href="https://static3.iabilet.ro/assets/v.1769785139/bc4455c5/cookieconsent.min.css" />
+<link rel="stylesheet" type="text/css" href="https://static.iabilet.ro/include/site/css-v.1769785139/style.css" />
+<link rel="stylesheet" type="text/css" href="https://static3.iabilet.ro/assets/v.1769785139/d58ffaea/theme.css" />
+<link rel="stylesheet" type="text/css" href="https://static3.iabilet.ro/assets/v.1769785139/c7782783/language-picker.css" />
+<link rel="stylesheet" type="text/css" href="https://static3.iabilet.ro/assets/v.1769785139/3a694e88/cookie-banner.css" />
+<link rel="stylesheet" type="text/css" href="https://static3.iabilet.ro/assets/v.1769785139/c2e28c49/accessibility.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/lib-v.1769785139/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="https://static3.iabilet.ro/assets/v.1769785139/271013fc/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/lib-v.1769785139/underscore-1.8.3.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/lib-v.1769785139/lib-common.js"></script>
+<script type="text/javascript" src="https://static3.iabilet.ro/assets/v.1769785139/d3e52b6c/typeahead.bundle.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/lib-v.1769785139/jquery-blockui/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://static3.iabilet.ro/assets/v.1769785139/d7463ccd/min/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/lib-v.1769785139/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="https://static3.iabilet.ro/assets/v.1769785139/bc4455c5/cookieconsent.min.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/site/js-v.1769785139/common.js"></script>
+<script type="text/javascript" src="https://static.iabilet.ro/include/site/js-v.1769785139/header.js"></script>
+<script type="text/javascript" src="https://static3.iabilet.ro/assets/v.1769785139/651d258c/js/eventListPaginated.js"></script>
+<script type="text/javascript" src="https://static3.iabilet.ro/assets/v.1769785139/c2e28c49/accessibility.js" defer="defer"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+if (typeof(CFG) == "undefined") {  var CFG = {};} CFG.siteLanguage = "ro_RO";
+    window.__A11Y_WIDGET__ = {
+        options: {"minScale":0.5,"maxScale":2,"scaleStep":0.1,"shortcuts":{"open":["Alt+Shift+X","Ctrl+Shift+X","Meta+Shift+X"],"scale_inc":["Alt+Shift+=","Ctrl+Shift+=","Meta+Shift+=","Alt+Shift++"],"scale_dec":["Alt+Shift+-","Ctrl+Shift+-","Meta+Shift+-"],"reset":["Alt+Shift+0","Ctrl+Shift+0","Meta+Shift+0"],"underline_links":["Ctrl+Shift+L","Meta+Shift+L"],"underline_headings":["Ctrl+Shift+E","Meta+Shift+E"],"grayscale":["Ctrl+Shift+B","Meta+Shift+B"],"contrast":["Ctrl+Shift+8","Meta+Shift+8"],"invert":["Ctrl+Shift+/","Meta+Shift+/"],"motion_off":["Ctrl+Shift+K","Meta+Shift+K"],"cursor_light":["Ctrl+Shift+[","Meta+Shift+["],"cursor_dark":["Ctrl+Shift+]","Meta+Shift+]"]}},
+        cookie: { name: 'a11y_settings', domain: '' }
+    };
+/*]]>*/
+</script>
+<title>Bilete la concerte și evenimente în Sibiu - iaBilet.ro</title>
+    <link rel="shortcut icon" href="https://static.iabilet.ro/img/global/favico16.png" type="image/png">
+</head>
+
+<body class="is-site is-site-desktop page-town page-town-view">
+
+<div class="header-search">
+    <div class="backdrop"></div>
+    <div class="search-container">
+    <form action="/cauta/" method="get">
+        <input class="form-control" placeholder="Caută artist, trupă, locaţie" data-is-header-search="true" data-is-header-autocomplete="true" data-autocomplete-url="/site/search/autocomplete/" data-suggest-template="&lt;div class=&quot;&lt;%= entity %&gt;&quot;&gt;&lt;% if (entity == &quot;artist&quot;) { %&gt;&lt;% if (isFirstInGroup == true) { %&gt;&lt;div class=&quot;heading&quot;&gt;Artiști/Trupe&lt;/div&gt;&lt;% } %&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;div class=&quot;right&quot;&gt;&lt;div class=&quot;title&quot;&gt;&lt;%= title %&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;% } else if (entity == &quot;venue&quot;) { %&gt;&lt;% if (isFirstInGroup == true) { %&gt;&lt;div class=&quot;heading&quot;&gt;Locații&lt;/div&gt;&lt;% } %&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;div class=&quot;right&quot;&gt;&lt;div class=&quot;event-title&quot;&gt;&lt;%= title %&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;% } else if (entity == &quot;town&quot;) { %&gt;&lt;% if (isFirstInGroup == true) { %&gt;&lt;div class=&quot;heading&quot;&gt;Orașe&lt;/div&gt;&lt;% } %&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;div class=&quot;right&quot;&gt;&lt;div class=&quot;event-title&quot;&gt;&lt;%= title %&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;% } else if (entity == &quot;event&quot;) { %&gt;&lt;% if (isFirstInGroup == true) { %&gt;&lt;div class=&quot;heading&quot;&gt;Evenimente&lt;/div&gt;&lt;% } %&gt;&lt;div class=&quot;highlight &lt;% if (typeof promoted !== &#039;undefined&#039; &amp;&amp; promoted) { %&gt;promoted&lt;% } %&gt;&quot;&gt;&lt;% if (typeof promoted !== &#039;undefined&#039; &amp;&amp; promoted) { %&gt;&lt;span class=&quot;promoted-badge&quot;&gt;PROMOVAT&lt;/span&gt;&lt;% } %&gt;&lt;div class=&quot;left&quot;&gt;&lt;% if (mainImageUrl) { %&gt;&lt;img src=&quot;&lt;%= mainImageUrl %&gt;&quot; /&gt;&lt;% } else { %&gt;&lt;div class=&quot;left&quot;&gt;&lt;/div&gt;&lt;% } %&gt;&lt;/div&gt;&lt;div class=&quot;right&quot;&gt;&lt;div class=&quot;title&quot;&gt;&lt;%= strip_tags(title) %&gt; &lt;/div&gt;&lt;div class=&quot;when&quot;&gt;&lt;%= strip_tags(startDate) %&gt;&lt;/div&gt;&lt;div class=&quot;venue&quot;&gt;// &lt;%= strip_tags(venue) %&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;% } else if (entity == &quot;searchSite&quot;) { %&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;div class=&quot;left&quot;&gt;&lt;div class=&quot;glyphicon glyphicon-search image&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;right&quot;&gt;&lt;div class=&quot;event-title&quot;&gt;Caută: &lt;strong&gt;&lt;%= _query %&gt;&lt;/strong&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;% } %&gt;&lt;/div&gt;" autocomplete="off" spellcheck="false" type="text" value="" name="q" id="q" />
+        <button class="btn btn-default btn-link" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+    </form>
+    </div>
+</div>
+
+<header class="global-header">
+    <div class="container container-top">
+        <a class="logo" href="/"></a>        <div class="btn-toolbar pull-right header-user-bar">
+        <div  class="btn-group" id="widget-c886683d-e2b0-4fe3-8a4c-65411284e57e" data-widget-type="21dbf340a74384be6a4440972684a777b8507772">
+        <div class="user-contextual-menu dropdown">
+        <span data-toggle="dropdown">
+            Contul meu            <span class="caret"></span>
+        </span>
+
+        <ul class="dropdown-menu dropdown-menu-right"><li><a href="/auth">Intră în cont</a></li><li><a href="/account/create">Cont nou</a></li></ul>    </div>
+
+    <script type="text/javascript">
+/*<![CDATA[*/
+((widgetId, reloadUrl, userCookieName, updateOnReady) => {
+const widget = document.getElementById(widgetId);
+
+var updated = false;
+
+function doUpdate()
+{
+    updated = true;
+
+    defaultAjaxUrlRequest({
+        url: reloadUrl,
+        messageHandler: () => {}
+    })
+    .fail(() => updated = false)
+    .then(function(data) {
+        if (data.error) {
+            updated = false;
+        }
+
+        if (data.html) {
+            const $loadedHtml = $(data.html);
+
+            $(widget).fadeOut(300, function () {
+                $(widget).html($loadedHtml.html()).fadeIn(300);
+            });
+
+        }
+    });
+}
+
+function requireUpdate()
+{
+    if (updated) { // Meniul a fost deja reîncărcat
+        return false;
+    }
+
+    if (getCookieValue(userCookieName)) { // User exists
+        return true;
+    }
+
+    // Userii neautentificați văd meniul implicit
+    return false;
+}
+
+function updateIfRequired()
+{
+    if (requireUpdate()) {
+        doUpdate();
+    }
+}
+
+if (updateOnReady) {
+    $(document).ready(updateIfRequired);
+}
+})('widget\x2Dc886683d\x2De2b0\x2D4fe3\x2D8a4c\x2D65411284e57e', '\x2F\x3Fwidget\x3Du8lxct0J7O6MiF2Xgrv97D_sCQkqR8n_6BwHDJvuK9D4F9rGqU3ckpdfPdpMwaLnc9AMHRyv8k5Id6bs9JRVQAN87tE6LAoHcuGq2ctuLSC5Rt9Qnl888zhl8A57b6MNl765yE3GGbvzRd51g9qXNB5F5_y36prrEjUiZI8ATi4sl2xDxpCTMukAayU3OmXFE194MFfAOJNtcudwxOTDEOjZmZYT57w29rOSJiCIpVzjFuUntEGVyTwWGBbKbyFnh8yr7P58KVV7oFIC6aWYQU1YDWuSjYA629utJAom1jJV9Ok9m8IlUG_ynXrHNSFBOS5QqQWSaqlMEEe6Xb_nWJz8EohMoI_c2\x2D8_pczldA1j9Ur2i9fA3hdvRiaFND_vpu5XDD0ppo4qr6TaWjwTWuIuzXNUjx\x2D8sgg7kX2iaRxS97IBCf_7il\x2D5\x26r\x3Dwidget\x252FHeaderUserArea.load', 'ib_user', true);
+/*]]>*/
+</script></div>
+<div  class="language-picker user-contextual-menu dropdown" id="widget-cff3db42-7463-4c65-a9a7-6ac1681641f7" data-widget-type="bc817368a988fcfb63a1494b1222b6b625f48e4e">
+
+    <span data-toggle="dropdown"><img class="flag" src="https://static3.iabilet.ro/assets/v.1769785139/c7782783/flags/1x1/ro.svg" alt="" /> <span class="caret"></span></span>
+    <ul class="dropdown-menu dropdown-menu-right">
+    <li><a data-language="ro" href="javascript:void(0)"><img class="flag" src="https://static3.iabilet.ro/assets/v.1769785139/c7782783/flags/1x1/ro.svg" alt="" /> RO</a></li><li><a data-language="en" href="javascript:void(0)"><img class="flag" src="https://static3.iabilet.ro/assets/v.1769785139/c7782783/flags/1x1/en.svg" alt="" /> EN</a></li><li><a data-language="bg" href="javascript:void(0)"><img class="flag" src="https://static3.iabilet.ro/assets/v.1769785139/c7782783/flags/1x1/bg.svg" alt="" /> BG</a></li><li><a data-language="hu" href="javascript:void(0)"><img class="flag" src="https://static3.iabilet.ro/assets/v.1769785139/c7782783/flags/1x1/hu.svg" alt="" /> HU</a></li><li><a data-language="uk" href="javascript:void(0)"><img class="flag" src="https://static3.iabilet.ro/assets/v.1769785139/c7782783/flags/1x1/uk.svg" alt="" /> UKR</a></li>    </ul>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+((selector, cookieName, cookieDuration, cookieDomain) => {
+$(selector).on('click', '[data-language]', function (e) {
+    var regex = /([?&])_lang=[^&]*/;
+    var newLang = $(this).data('language');
+
+    // Set cookie before redirecting
+    var cookieString = cookieName + '=' + encodeURIComponent(newLang) + '; path=/';
+    if (cookieDuration > 0) {
+        var expireDate = new Date();
+        expireDate.setTime(expireDate.getTime() + (cookieDuration * 1000));
+        cookieString += '; expires=' + expireDate.toUTCString();
+    }
+    if (cookieDomain) {
+        cookieString += '; domain=' + cookieDomain;
+    }
+    document.cookie = cookieString;
+
+    // Redirect to the new URL with language parameter
+    if (location.search.search(regex) != -1) {
+        location.search = location.search.replace(regex, '$1_lang=' + escape(newLang));
+    } else {
+        location.search = location.search + (location.search.indexOf('?') == -1 ? '?' : '&') + '_lang=' + escape(newLang);
+    }
+});
+})('\x23widget\x2Dcff3db42\x2D7463\x2D4c65\x2Da9a7\x2D6ac1681641f7', 'ib_lang', 31536000, 'iabilet.ro');
+/*]]>*/
+</script>        </div>
+    </div>
+
+    <!-- top b@nn3r -->
+    <div class="bxX6Rrew5E" id="bxX6Rrew5E"></div>
+    <!-- /top b@nn3r -->
+
+    <div class="navbar">
+        <div class="container">
+            <div class="container-navbar">
+                <ul class="nav navbar-nav">
+                                                             
+                    <li class="event-category">
+                        <div class="user-contextual-menu menu-location dropdown">
+                            <a class="toggle" href="javascript:void(0)">
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                                <span class="country">RO</span><span class="city">Sibiu</span>                                <span class="caret"></span>
+                            </a>
+
+                                                        <div class="dropdown-menu dropdown-menu-left">
+                                <div>
+                                    <div>
+                                        <div class="dropdown-cat">
+                                            2371 evenimente din 140 orașe                                        </div>
+                                        <ul class="dropdown-columns columns-3">
+                                            <li><a href="/site/index/index"><strong>Toate</strong></a></li>
+                                                                                                                                    <li><a href="/bilete-in-bucuresti/">București</a></li>
+                                                                                        <li><a href="/bilete-in-adjud/">Adjud</a></li>
+                                                                                        <li><a href="/bilete-in-alba-iulia/">Alba Iulia</a></li>
+                                                                                        <li><a href="/bilete-in-alexandria/">Alexandria</a></li>
+                                                                                        <li><a href="/bilete-in-arad/">Arad</a></li>
+                                                                                        <li><a href="/bilete-in-babutiu/">Băbuțiu</a></li>
+                                                                                        <li><a href="/bilete-in-bacau/">Bacău</a></li>
+                                                                                        <li><a href="/bilete-in-baia-mare/">Baia Mare</a></li>
+                                                                                        <li><a href="/bilete-in-baicoi/">Băicoi</a></li>
+                                                                                        <li><a href="/bilete-in-baldovinesti-braila/">Baldovinești</a></li>
+                                                                                        <li><a href="/bilete-in-balotesti-ilfov/">Balotești</a></li>
+                                                                                        <li><a href="/bilete-in-barcani/">Barcani</a></li>
+                                                                                        <li><a href="/bilete-in-barlad/">Bârlad</a></li>
+                                                                                        <li><a href="/bilete-in-barnova/">Bârnova</a></li>
+                                                                                        <li><a href="/bilete-in-beclean-bistrita-nasaud/">Beclean</a></li>
+                                                                                        <li><a href="/bilete-in-bistrita/">Bistrița</a></li>
+                                                                                        <li><a href="/bilete-in-blaj-alba/">Blaj</a></li>
+                                                                                        <li><a href="/bilete-in-bobalna-cluj/">Bobâlna</a></li>
+                                                                                        <li><a href="/bilete-in-boldesti-scaeni/">Boldești-Scăeni</a></li>
+                                                                                        <li><a href="/bilete-in-bontida/">Bonțida</a></li>
+                                                                                        <li><a href="/bilete-in-botosani/">Botoșani</a></li>
+                                                                                        <li><a href="/bilete-in-braila/">Brăila</a></li>
+                                                                                        <li><a href="/bilete-in-brasov/">Brașov</a></li>
+                                                                                        <li><a href="/bilete-in-breb/">Breb</a></li>
+                                                                                        <li><a href="/bilete-in-brezoi/">Brezoi</a></li>
+                                                                                        <li><a href="/bilete-in-buzad/">Buzad</a></li>
+                                                                                        <li><a href="/bilete-in-buzau/">Buzău</a></li>
+                                                                                        <li><a href="/bilete-in-calarasi/">Călărași</a></li>
+                                                                                        <li><a href="/bilete-in-campina/">Câmpina</a></li>
+                                                                                        <li><a href="/bilete-in-campulung/">Câmpulung</a></li>
+                                                                                        <li><a href="/bilete-in-campulung-moldovenesc/">Câmpulung Moldovenesc</a></li>
+                                                                                        <li><a href="/bilete-in-caracal/">Caracal</a></li>
+                                                                                        <li><a href="/bilete-in-caransebes/">Caransebeș</a></li>
+                                                                                        <li><a href="/bilete-in-chiajna/">Chiajna</a></li>
+                                                                                        <li><a href="/bilete-in-chiscani/">Chișcani</a></li>
+                                                                                        <li><a href="/bilete-in-cisnadie/">Cisnădie</a></li>
+                                                                                        <li><a href="/bilete-in-cluj-napoca/">Cluj-Napoca</a></li>
+                                                                                        <li><a href="/bilete-in-codlea/">Codlea</a></li>
+                                                                                        <li><a href="/bilete-in-constanta/">Constanța</a></li>
+                                                                                        <li><a href="/bilete-in-corbeanca-ilfov/">Corbeanca</a></li>
+                                                                                        <li><a href="/bilete-in-corbu-harghita/">Corbu</a></li>
+                                                                                        <li><a href="/bilete-in-costinesti-constanta/">Costinești</a></li>
+                                                                                        <li><a href="/bilete-in-craiova/">Craiova</a></li>
+                                                                                        <li><a href="/bilete-in-cristur/">Cristur</a></li>
+                                                                                        <li><a href="/bilete-in-cugir/">Cugir</a></li>
+                                                                                        <li><a href="/bilete-in-curtea-de-arges/">Curtea de Argeș</a></li>
+                                                                                        <li><a href="/bilete-in-darabani-botosani/">Darabani</a></li>
+                                                                                        <li><a href="/bilete-in-darmanesti-bacau/">Dărmănești</a></li>
+                                                                                        <li><a href="/bilete-in-dej/">Dej</a></li>
+                                                                                        <li><a href="/bilete-in-deva/">Deva</a></li>
+                                                                                        <li><a href="/bilete-in-domnesti-ilfov/">Domnești</a></li>
+                                                                                        <li><a href="/bilete-in-drobeta-turnu-severin/">Drobeta-Turnu Severin</a></li>
+                                                                                        <li><a href="/bilete-in-durusa/">Durușa</a></li>
+                                                                                        <li><a href="/bilete-in-fagaras/">Făgăraș</a></li>
+                                                                                        <li><a href="/bilete-in-falticeni/">Fălticeni</a></li>
+                                                                                        <li><a href="/bilete-in-feleacu/">Feleacu</a></li>
+                                                                                        <li><a href="/bilete-in-floresti-cluj/">Florești</a></li>
+                                                                                        <li><a href="/bilete-in-focsani/">Focșani</a></li>
+                                                                                        <li><a href="/bilete-in-gaesti/">Găești</a></li>
+                                                                                        <li><a href="/bilete-in-galati/">Galați</a></li>
+                                                                                        <li><a href="/bilete-in-gherla/">Gherla</a></li>
+                                                                                        <li><a href="/bilete-in-ghimbav/">Ghimbav</a></li>
+                                                                                        <li><a href="/bilete-in-ghiroda/">Ghiroda</a></li>
+                                                                                        <li><a href="/bilete-in-giurgiu/">Giurgiu</a></li>
+                                                                                        <li><a href="/bilete-in-gura-humorului/">Gura Humorului</a></li>
+                                                                                        <li><a href="/bilete-in-horezu-valcea/">Horezu</a></li>
+                                                                                        <li><a href="/bilete-in-hunedoara/">Hunedoara</a></li>
+                                                                                        <li><a href="/bilete-in-iasi/">Iași</a></li>
+                                                                                        <li><a href="/bilete-in-insuratei-braila/">Însurăței</a></li>
+                                                                                        <li><a href="/bilete-in-intorsura-buzaului/">Întorsura Buzăului</a></li>
+                                                                                        <li><a href="/bilete-in-lehliu/">Lehliu</a></li>
+                                                                                        <li><a href="/bilete-in-lugoj/">Lugoj</a></li>
+                                                                                        <li><a href="/bilete-in-luna-de-jos/">Luna de Jos</a></li>
+                                                                                        <li><a href="/bilete-in-lupeni-hunedoara/">Lupeni</a></li>
+                                                                                        <li><a href="/bilete-in-magureni-prahova/">Măgureni</a></li>
+                                                                                        <li><a href="/bilete-in-mamaia/">Mamaia</a></li>
+                                                                                        <li><a href="/bilete-in-mangalia/">Mangalia</a></li>
+                                                                                        <li><a href="/bilete-in-medias/">Mediaș</a></li>
+                                                                                        <li><a href="/bilete-in-merisani-arges/">Merișani</a></li>
+                                                                                        <li><a href="/bilete-in-mioveni/">Mioveni</a></li>
+                                                                                        <li><a href="/bilete-in-nedelea/">Nedelea</a></li>
+                                                                                        <li><a href="/bilete-in-oltenita/">Oltenița</a></li>
+                                                                                        <li><a href="/bilete-in-onesti-bacau/">Onești</a></li>
+                                                                                        <li><a href="/bilete-in-oradea/">Oradea</a></li>
+                                                                                        <li><a href="/bilete-in-pascani/">Pașcani</a></li>
+                                                                                        <li><a href="/bilete-in-periam/">Periam</a></li>
+                                                                                        <li><a href="/bilete-in-petrosani-hunedoara/">Petroșani</a></li>
+                                                                                        <li><a href="/bilete-in-piatra-neamt/">Piatra-Neamț</a></li>
+                                                                                        <li><a href="/bilete-in-pitesti/">Pitești</a></li>
+                                                                                        <li><a href="/bilete-in-ploiesti/">Ploiești</a></li>
+                                                                                        <li><a href="/bilete-in-popesti-leordeni/">Popești Leordeni</a></li>
+                                                                                        <li><a href="/bilete-in-porumbacu-de-sus/">Porumbacu de Sus</a></li>
+                                                                                        <li><a href="/bilete-in-potigrafu/">Potigrafu</a></li>
+                                                                                        <li><a href="/bilete-in-pucioasa/">Pucioasa</a></li>
+                                                                                        <li><a href="/bilete-in-radauti/">Rădăuți</a></li>
+                                                                                        <li><a href="/bilete-in-ramnicu-valcea/">Râmnicu Vâlcea</a></li>
+                                                                                        <li><a href="/bilete-in-rasnov/">Râșnov</a></li>
+                                                                                        <li><a href="/bilete-in-reghin/">Reghin</a></li>
+                                                                                        <li><a href="/bilete-in-resita/">Reșița</a></li>
+                                                                                        <li><a href="/bilete-in-roman/">Roman</a></li>
+                                                                                        <li><a href="/bilete-in-sacele-brasov/">Săcele</a></li>
+                                                                                        <li><a href="/bilete-in-santana-de-mures/">Sântana de Mureș</a></li>
+                                                                                        <li><a href="/bilete-in-satu-mare/">Satu Mare</a></li>
+                                                                                        <li><a href="/bilete-in-sebes-alba/">Sebeș</a></li>
+                                                                                        <li><a href="/bilete-in-sibiu/">Sibiu</a></li>
+                                                                                        <li><a href="/bilete-in-sighetu-marmatiei/">Sighetu Marmației</a></li>
+                                                                                        <li><a href="/bilete-in-sighisoara/">Sighișoara</a></li>
+                                                                                        <li><a href="/bilete-in-slatina/">Slatina</a></li>
+                                                                                        <li><a href="/bilete-in-slobozia/">Slobozia</a></li>
+                                                                                        <li><a href="/bilete-in-snagov/">Snagov</a></li>
+                                                                                        <li><a href="/bilete-in-somova/">Somova</a></li>
+                                                                                        <li><a href="/bilete-in-stefanesti-arges-13409/">Ștefănești</a></li>
+                                                                                        <li><a href="/bilete-in-suceava/">Suceava</a></li>
+                                                                                        <li><a href="/bilete-in-targoviste/">Târgoviște</a></li>
+                                                                                        <li><a href="/bilete-in-targu-jiu/">Târgu Jiu</a></li>
+                                                                                        <li><a href="/bilete-in-targu-mures/">Târgu Mureș</a></li>
+                                                                                        <li><a href="/bilete-in-targu-neamt/">Târgu Neamț</a></li>
+                                                                                        <li><a href="/bilete-in-targu-ocna/">Târgu Ocna</a></li>
+                                                                                        <li><a href="/bilete-in-tecuci-galati/">Tecuci</a></li>
+                                                                                        <li><a href="/bilete-in-timisoara/">Timișoara</a></li>
+                                                                                        <li><a href="/bilete-in-topoloveni/">Topoloveni</a></li>
+                                                                                        <li><a href="/bilete-in-tulcea/">Tulcea</a></li>
+                                                                                        <li><a href="/bilete-in-vadu-oii-buzau/">Vadu Oii</a></li>
+                                                                                        <li><a href="/bilete-in-valenii-de-munte/">Vălenii de Munte</a></li>
+                                                                                        <li><a href="/bilete-in-vaslui/">Vaslui</a></li>
+                                                                                        <li><a href="/bilete-in-vatra-dornei/">Vatra Dornei</a></li>
+                                                                                        <li><a href="/bilete-in-venus/">Venus</a></li>
+                                                                                        <li><a href="/bilete-in-voluntari/">Voluntari</a></li>
+                                                                                        <li><a href="/bilete-in-zalau/">Zalău</a></li>
+                                                                                    </ul>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown-cat">Internațional</div>
+                                        <ul class="dropdown-columns">
+                                                                                                                                    <li><a href="/bilete-in-austria/">Austria</a></li>
+                                                                                        <li><a href="/bilete-in-belgia/">Belgia</a></li>
+                                                                                        <li><a href="/bilete-in-germania/">Germania</a></li>
+                                                                                        <li><a href="/bilete-in-luxemburg/">Luxemburg</a></li>
+                                                                                        <li><a href="/bilete-in-marea-britanie/">Marea Britanie</a></li>
+                                                                                        <li><a href="/bilete-in-moldova/">Moldova</a></li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </li>
+
+                                                    <li class="event-category ">
+                                    <div class="user-contextual-menu dropdown">
+                                                                                <a class="toggle" href="">
+                                            <span>Stil</span>
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-left">
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-rock/">Rock</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-pop/">Pop</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-metal/">Metal</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-electro/">Electronica</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-hip-hop/">Hip Hop</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-festivaluri/">Festivaluri</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-muzica-clasica/">Clasica</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-pop-rock/">Pop Rock</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte-jazz/">Jazz</a></li>
+                                                                                    <li><a href="/bilete-in-sibiu/bilete-concerte/"><strong>Toate</strong></a></li>
+                                                                                </ul>
+
+                                        
+                                    </div>
+                                </li>
+                                                            <li class="event-category  light">
+                                    <div class="user-contextual-menu dropdown">
+                                                                                <a class="toggle" href="/bilete-in-sibiu/bilete-teatru/">
+                                            <span>Teatru</span>
+                                        </a>
+                                        
+                                    </div>
+                                </li>
+                                                            <li class="event-category  light">
+                                    <div class="user-contextual-menu dropdown">
+                                                                                <a class="toggle" href="/bilete-in-sibiu/bilete-stand-up-comedy/">
+                                            <span>Stand-up comedy</span>
+                                        </a>
+                                        
+                                    </div>
+                                </li>
+                                                            <li class="event-category  light">
+                                    <div class="user-contextual-menu dropdown">
+                                                                                <a class="toggle" href="/bilete-in-sibiu/bilete-spectacole-pentru-copii/">
+                                            <span>Spectacole pentru copii</span>
+                                        </a>
+                                        
+                                    </div>
+                                </li>
+                                                            <li class="event-category  light">
+                                    <div class="user-contextual-menu dropdown">
+                                                                                <a class="toggle" href="/bilete-voucher-cadou-iabilet-87881/">
+                                            <span>Vouchere cadou</span>
+                                        </a>
+                                        
+                                    </div>
+                                </li>
+                                                            <li class="event-category  light">
+                                    <div class="user-contextual-menu dropdown">
+                                                                                <a class="toggle" href="https://www.iabilet.ro/servicii">
+                                            <span>Servicii organizatori</span>
+                                        </a>
+                                        
+                                    </div>
+                                </li>
+                                            </ul>
+                                <ul class="nav navbar-right">
+                    <li>
+                        <a class="header-calendar-launcher " data-purpose="header-calendar-launcher" data-day-url-template="/bilete/__year__/__month__/__day__/" data-month-url-template="/bilete/__year__/__month__/" data-month-label-template="Vezi tot &lt;%= monthYear %&gt;" href="javascript:void(0)"><span class="glyphicon glyphicon-calendar"></span></a>                    </li>
+                </ul>
+
+                                <div class="header-calendar" data-purpose="data-selector-container">
+                    <div class="day-selector" data-purpose="day-selector-container"></div>
+                    <a href="javascript:void(0)" class="btn btn-primary btn-xs btn-block" data-purpose="month-link"></a>
+                </div>
+                            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="global-container">
+    <div class="container event-list-container">
+        <h1>Bilete la concerte și evenimente în Sibiu</span></h1>
+
+        
+        <div class="row" style="margin: 0">
+            <div id="row-top-vanzari" class="col-xs-12">
+                            </div>
+        </div>
+
+        
+                    <div class="event-list" data-event-list="container">
+    <div class="event-list-items" data-event-list="list">
+
+        <script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Femeia, zei\u021ba Universului","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-femeia-zeita-universului-119393\/","description":"Exist\u0103 momente \u00een via\u021ba unei femei c\u00e2nd simte chemarea de a se opri.\r\nDe a-\u0219i asculta inima. De a-\u0219i aminti cine este cu adev\u0103rat.\u2026","startDate":"2026-02-01","endDate":"2026-02-01","image":"https:\/\/imgcdn3.iabilet.ro\/zTfrEePF2_HLun-Ozob4LqCktQI=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd2%2F61%2F00000368479-e159.jpg","location":{"@type":"Place","name":"Mercure Sibiu Arsenal","address":{"@type":"PostalAddress","streetAddress":"Bulevardul Victoriei 48","addressLocality":"Sibiu"}}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/119393" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-femeia-zeita-universului-119393/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/zTfrEePF2_HLun-Ozob4LqCktQI=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd2%2F61%2F00000368479-e159.jpg" alt="Sibiu: Femeia, zeița Universului" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">01</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-femeia-zeita-universului-119393/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Femeia, zeița Universului</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-mercure-sibiu-arsenal-venue-7509/" class="venue">
+                <span>Mercure Sibiu Arsenal</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Există momente în viața unei femei când simte chemarea de a se opri.
+De a-și asculta inima. De a-și aminti cine este cu adevărat.…</div>
+
+        
+            </div>
+
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Nimeni nu \u0219tie ce e in inima mea","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-nimeni-nu-stie-ce-e-in-inima-mea-122082\/","description":"Cel mai a\u0219teptat spectacol. Actorul Florin Co\u0219ule\u021b \u00een form\u0103 de zile mari!\r\nUn spectacol cum altul nu-i ! Cel mai longeviv spectacol de cafenea al\u2026","startDate":"2026-02-02","endDate":"2026-02-02","image":"https:\/\/imgcdn3.iabilet.ro\/iFDM3iy0mg87lBQ6S3AbKBOEV64=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fe2%2F00000379239-e823.jpg","location":{"@type":"Place","name":"Atrium Cafe","address":{"@type":"PostalAddress","streetAddress":"Pia\u021ba Mic\u0103, Nr. 16","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-nimeni-nu-stie-ce-e-in-inima-mea-122082\/","price":"53,03","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/122082" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-nimeni-nu-stie-ce-e-in-inima-mea-122082/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/iFDM3iy0mg87lBQ6S3AbKBOEV64=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fe2%2F00000379239-e823.jpg" alt="Sibiu: Nimeni nu știe ce e in inima mea" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">02</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-nimeni-nu-stie-ce-e-in-inima-mea-122082/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Nimeni nu știe ce e in inima mea</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-atrium-cafe-venue-6480/" class="venue">
+                <span>Atrium Cafe</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Cel mai așteptat spectacol. Actorul Florin Coșuleț în formă de zile mari!
+Un spectacol cum altul nu-i ! Cel mai longeviv spectacol de cafenea al…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-nimeni-nu-stie-ce-e-in-inima-mea-122082/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                53<sup>03</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Recital de Pian","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-recital-de-pian-121855\/","description":"Miercuri, 4 februarie 2026, ora 19.00, Sala Thalia, Recital de Pian - Matei Rogoz\r\nMatei \u0218erban Rogoz revine pe scena Sala Thalia pentru un recital\u2026","startDate":"2026-02-04","endDate":"2026-02-04","image":"https:\/\/imgcdn3.iabilet.ro\/Z0y9k6YnZyMyekfmMe08YUA6GzE=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdb%2Fff%2F00000378347-123f.jpg","location":{"@type":"Place","name":"Filarmonica de Stat Sibiu - Sala Thalia","address":{"@type":"PostalAddress","streetAddress":"Str. Cetatii, nr. 3-5","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-recital-de-pian-121855\/","price":"15","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121855" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-recital-de-pian-121855/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/Z0y9k6YnZyMyekfmMe08YUA6GzE=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdb%2Fff%2F00000378347-123f.jpg" alt="Sibiu: Recital de Pian" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">04</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-recital-de-pian-121855/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Recital de Pian</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-filarmonica-de-stat-sibiu-sala-thalia-venue-1657/" class="venue">
+                <span>Filarmonica de Stat Sibiu - Sala Thalia</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Miercuri, 4 februarie 2026, ora 19.00, Sala Thalia, Recital de Pian - Matei Rogoz
+Matei Șerban Rogoz revine pe scena Sala Thalia pentru un recital…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-recital-de-pian-121855/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 15 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Concert Simfonic Gianmaria Fantato Pontini","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-concert-simfonic-gianmaria-fantato-pontini-121856\/","description":"Concert simfonic - Gianmaria Fantato Pontini, Joi, 5 februarie 2026, ora 19.00, Sala Thalia\r\nOrchestra Filarmonicii de Stat Sibiu\r\nDirijor: Gianmaria\u2026","startDate":"2026-02-05","endDate":"2026-02-05","image":"https:\/\/imgcdn3.iabilet.ro\/p6RxQ3-CmI_1W0WbsP8_4GA1id0=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2F00%2F00000378354-1cd8.jpg","location":{"@type":"Place","name":"Filarmonica de Stat Sibiu - Sala Thalia","address":{"@type":"PostalAddress","streetAddress":"Str. Cetatii, nr. 3-5","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-concert-simfonic-gianmaria-fantato-pontini-121856\/","price":"30","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121856" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-concert-simfonic-gianmaria-fantato-pontini-121856/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/p6RxQ3-CmI_1W0WbsP8_4GA1id0=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2F00%2F00000378354-1cd8.jpg" alt="Sibiu: Concert Simfonic Gianmaria Fantato Pontini" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">05</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-concert-simfonic-gianmaria-fantato-pontini-121856/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Concert Simfonic Gianmaria Fantato Pontini</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-filarmonica-de-stat-sibiu-sala-thalia-venue-1657/" class="venue">
+                <span>Filarmonica de Stat Sibiu - Sala Thalia</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Concert simfonic - Gianmaria Fantato Pontini, Joi, 5 februarie 2026, ora 19.00, Sala Thalia
+Orchestra Filarmonicii de Stat Sibiu
+Dirijor: Gianmaria…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-concert-simfonic-gianmaria-fantato-pontini-121856/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 30 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Lansare joc - Colectives 9 - Boardgame","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-premiera-joc-collectives-9-boardgame-121534\/","description":"Ideal Board Games, cei care au adus \u00een Rom\u00e2nia Catan \u0219i multe alte titluri de succes, prezint\u0103 primul lor joc propriu: COLLECTIVES9. \n\nTe invit\u0103m\u2026","startDate":"2026-02-05","endDate":"2026-02-05","image":"https:\/\/imgcdn3.iabilet.ro\/vNWW-Xs6xBkR8k20LdI547oMy5s=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fda%2Fbe%2F00000377742-85d0.jpg","location":{"@type":"Place","name":"Ramore Fresh Food Sibiu","address":{"@type":"PostalAddress","streetAddress":"Strada Radu Stanca 1","addressLocality":"Sibiu"}}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121534" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-premiera-joc-collectives-9-boardgame-121534/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/vNWW-Xs6xBkR8k20LdI547oMy5s=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fda%2Fbe%2F00000377742-85d0.jpg" alt="Sibiu: Lansare joc - Colectives 9 - Boardgame" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">05</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-premiera-joc-collectives-9-boardgame-121534/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Premieră joc - Collectives 9 - <strong>Boardgame</strong></span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-ramore-fresh-food-sibiu-venue-8647/" class="venue">
+                <span>Ramore Fresh Food Sibiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Ideal Board Games, cei care au adus în România Catan și multe alte titluri de succes, prezintă primul lor joc propriu: COLLECTIVES9. 
+
+Te invităm…</div>
+
+                <div class="text-danger">Atenție: ultimele bilete</div>
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-premiera-joc-collectives-9-boardgame-121534/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Storytellers Acoustic Blues Duo - Marcian Petrescu & Angelo Eduard Stoica","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-storytellers-acoustic-blues-duo-marcian-petrescu-angelo-eduard-stoica-120585\/","description":"O sear\u0103 unic\u0103 de folk-blues, \u00een care piese legendare din istoria blues-ului american \u0219i britanic se \u00eempletesc cu pove\u0219ti fascinante, mai mult\u2026","startDate":"2026-02-06","endDate":"2026-02-06","image":"https:\/\/imgcdn3.iabilet.ro\/uh_C2VMGqMG_ueYnppHjki7prhQ=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd7%2F09%2F00000376437-d773.jpg","location":{"@type":"Place","name":"Atrium Cafe","address":{"@type":"PostalAddress","streetAddress":"Pia\u021ba Mic\u0103, Nr. 16","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-storytellers-acoustic-blues-duo-marcian-petrescu-angelo-eduard-stoica-120585\/","price":"53,03","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/120585" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-storytellers-acoustic-blues-duo-marcian-petrescu-angelo-eduard-stoica-120585/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/uh_C2VMGqMG_ueYnppHjki7prhQ=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd7%2F09%2F00000376437-d773.jpg" alt="Sibiu: Storytellers Acoustic Blues Duo - Marcian Petrescu &amp; Angelo Eduard Stoica" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">06</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-storytellers-acoustic-blues-duo-marcian-petrescu-angelo-eduard-stoica-120585/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Storytellers Acoustic Blues Duo - Marcian Petrescu &amp; Angelo Eduard Stoica</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-atrium-cafe-venue-6480/" class="venue">
+                <span>Atrium Cafe</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>O seară unică de folk-blues, în care piese legendare din istoria blues-ului american și britanic se împletesc cu povești fascinante, mai mult…</div>
+
+                <div class="text-danger">Atenție: ultimele bilete</div>
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-storytellers-acoustic-blues-duo-marcian-petrescu-angelo-eduard-stoica-120585/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                53<sup>03</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Amintiri de sub papuc","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-amintiri-de-sub-papuc-121189\/","description":"Dragi oameni din Sibiu, Anghel Constantin \u0219i Anamaria St\u00e2ncanu v\u0103 invit\u0103 la un moment  \u00een care teatrul, poezia \u0219i comedia se \u00eempletesc ca un\u2026","startDate":"2026-02-06","endDate":"2026-02-06","image":"https:\/\/imgcdn3.iabilet.ro\/GVgal2Aup3mULAzQXU0yVH40BOk=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd9%2F65%2F00000375447-5601.png","location":{"@type":"Place","name":"Ramore Fresh Food Sibiu","address":{"@type":"PostalAddress","streetAddress":"Strada Radu Stanca 1","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-amintiri-de-sub-papuc-121189\/","price":"53,03","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121189" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-amintiri-de-sub-papuc-121189/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/GVgal2Aup3mULAzQXU0yVH40BOk=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd9%2F65%2F00000375447-5601.png" alt="Sibiu: Amintiri de sub papuc" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">06</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-amintiri-de-sub-papuc-121189/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Amintiri de sub papuc</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-ramore-fresh-food-sibiu-venue-8647/" class="venue">
+                <span>Ramore Fresh Food Sibiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Dragi oameni din Sibiu, Anghel Constantin și Anamaria Stâncanu vă invită la un moment  în care teatrul, poezia și comedia se împletesc ca un…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-amintiri-de-sub-papuc-121189/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                53<sup>03</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Concert Phoenix","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-concert-phoenix-121080\/","description":"Phoenix anun\u021b\u0103 primele concerte din 2026!\r\nTrupa Phoenix, simbol al rock-ului rom\u00e2nesc \u0219i al muzicii de calitate, revine \u00een for\u021b\u0103 pe scen\u0103 cu\u2026","startDate":"2026-02-07","endDate":"2026-02-07","image":"https:\/\/imgcdn3.iabilet.ro\/7fW08V2ZY-ID90XX00DdbAhC2FU=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd8%2Ff8%2F00000375082-11e7.png","location":{"@type":"Place","name":"Oldies Pub","address":{"@type":"PostalAddress","streetAddress":"str. Nicolae Balcescu, nr. 13","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-concert-phoenix-121080\/","price":"107,26","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121080" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-concert-phoenix-121080/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/7fW08V2ZY-ID90XX00DdbAhC2FU=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd8%2Ff8%2F00000375082-11e7.png" alt="Sibiu: Concert Phoenix" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">07</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-concert-phoenix-121080/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Concert Phoenix</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-oldies-pub-venue-704/" class="venue">
+                <span>Oldies Pub</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Phoenix anunță primele concerte din 2026!
+Trupa Phoenix, simbol al rock-ului românesc și al muzicii de calitate, revine în forță pe scenă cu…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-concert-phoenix-121080/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                107<sup>26</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Stand-up comedy cu C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-121982\/","description":"","startDate":"2026-02-08","endDate":"2026-02-08","image":"https:\/\/imgcdn3.iabilet.ro\/YV7iGqWgFYe68AlXo0NH4YoSdHE=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2F7e%2F00000378828-9e59.png","location":{"@type":"Place","name":"Centrul Cultural Ion Besoiu","address":{"@type":"PostalAddress","streetAddress":"str. Emil Cioran, nr. 1A","addressLocality":"Sibiu"}}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121982" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-atentie-sibiu/">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/YV7iGqWgFYe68AlXo0NH4YoSdHE=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2F7e%2F00000378828-9e59.png" alt="Sibiu: Stand-up comedy cu Cîrje, Florin, Dobrotă și Popinciuc" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">08</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-atentie-sibiu/"><span>Sibiu: Stand-up comedy cu <strong>Cîrje, Florin, Dobrotă și Popinciuc</strong></span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-centrul-cultural-ion-besoiu-venue-140/" class="venue">
+                <span>Centrul Cultural Ion Besoiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div></div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-atentie-sibiu/">ia Bilet</a>            <div class="price">
+                            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Stand-up comedy cu C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc - ORA 17:30","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-17-30-118950\/","description":"C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc sunt pu\u0219i pe \u0219otii, caterinc\u0103, glume, poante, farse \u0219i poate magie dac\u0103 are Florinel dispozi\u021bia\u2026","startDate":"2026-02-08","endDate":"2026-02-08","image":"https:\/\/imgcdn3.iabilet.ro\/HlIrKpnA_-OMm9a7_C3GOjyDY4o=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd0%2Fa6%2F00000366845-cdb0.jpg","location":{"@type":"Place","name":"Centrul Cultural Ion Besoiu - Sala Mica","address":{"@type":"PostalAddress","streetAddress":"str. Emil Cioran, nr. 1A","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-17-30-118950\/","price":"70","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/118950" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-17-30-118950/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/HlIrKpnA_-OMm9a7_C3GOjyDY4o=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd0%2Fa6%2F00000366845-cdb0.jpg" alt="Sibiu: Stand-up comedy cu Cîrje, Florin, Dobrotă și Popinciuc - ORA 17:30" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">08</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-17-30-118950/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Stand-up comedy cu <strong>Cîrje, Florin, Dobrotă și Popinciuc</strong> - ORA 17:30</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-centrul-cultural-ion-besoiu-sala-mica-venue-8612/" class="venue">
+                <span>Centrul Cultural Ion Besoiu - Sala Mica</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Cîrje, Florin, Dobrotă și Popinciuc sunt puși pe șotii, caterincă, glume, poante, farse și poate magie dacă are Florinel dispoziția…</div>
+
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-17-30-118950/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 70 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Stand-up comedy cu C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc - ORA 19:00","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-19-00-118948\/","description":"C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc sunt pu\u0219i pe \u0219otii, caterinc\u0103, glume, poante, farse \u0219i poate magie dac\u0103 are Florinel dispozi\u021bia\u2026","startDate":"2026-02-08","endDate":"2026-02-08","image":"https:\/\/imgcdn3.iabilet.ro\/GsuOG4_oBoBdsNqILhGGDqmJbKI=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd0%2Fa4%2F00000366847-553c.jpg","location":{"@type":"Place","name":"Centrul Cultural Ion Besoiu - Sala Mica","address":{"@type":"PostalAddress","streetAddress":"str. Emil Cioran, nr. 1A","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-19-00-118948\/","price":"65","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/118948" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-19-00-118948/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/GsuOG4_oBoBdsNqILhGGDqmJbKI=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd0%2Fa4%2F00000366847-553c.jpg" alt="Sibiu: Stand-up comedy cu Cîrje, Florin, Dobrotă și Popinciuc - ORA 19:00" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">08</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-19-00-118948/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Stand-up comedy cu <strong>Cîrje, Florin, Dobrotă și Popinciuc</strong> - ORA 19:00</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-centrul-cultural-ion-besoiu-sala-mica-venue-8612/" class="venue">
+                <span>Centrul Cultural Ion Besoiu - Sala Mica</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Cîrje, Florin, Dobrotă și Popinciuc sunt puși pe șotii, caterincă, glume, poante, farse și poate magie dacă are Florinel dispoziția…</div>
+
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-19-00-118948/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 65 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Stand-up comedy cu C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc - ORA 20:30","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-20-30-119057\/","description":"C\u00eerje, Florin, Dobrot\u0103 \u0219i Popinciuc sunt pu\u0219i pe \u0219otii, caterinc\u0103, glume, poante, farse \u0219i poate magie dac\u0103 are Florinel dispozi\u021bia\u2026","startDate":"2026-02-08","endDate":"2026-02-08","image":"https:\/\/imgcdn3.iabilet.ro\/jxyeMLe0ltQwKE_Ch68aDyC8QkE=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd1%2F11%2F00000367016-f584.png","location":{"@type":"Place","name":"Centrul Cultural Ion Besoiu - Sala Mica","address":{"@type":"PostalAddress","streetAddress":"str. Emil Cioran, nr. 1A","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-20-30-119057\/","price":"65","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/119057" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-20-30-119057/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/jxyeMLe0ltQwKE_Ch68aDyC8QkE=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd1%2F11%2F00000367016-f584.png" alt="Sibiu: Stand-up comedy cu Cîrje, Florin, Dobrotă și Popinciuc - ORA 20:30" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">08</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-20-30-119057/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Stand-up comedy cu <strong>Cîrje, Florin, Dobrotă și Popinciuc</strong> - ORA 20:30</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-centrul-cultural-ion-besoiu-sala-mica-venue-8612/" class="venue">
+                <span>Centrul Cultural Ion Besoiu - Sala Mica</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Cîrje, Florin, Dobrotă și Popinciuc sunt puși pe șotii, caterincă, glume, poante, farse și poate magie dacă are Florinel dispoziția…</div>
+
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-stand-up-comedy-cu-cirje-florin-dobrota-si-popinciuc-ora-20-30-119057/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 65 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Un cuplu cu n\u0103b\u0103d\u0103i","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-un-cuplu-cu-nabadai-122038\/","description":"V\u0103 invit\u0103m la o comedie spumoas\u0103, plin\u0103 de haz, umor \u0219i situa\u021bii comice, absurde, cu crize de gelozie, cu tandre\u021be, cu hohote de r\u00e2s.","startDate":"2026-02-09","endDate":"2026-02-09","image":"https:\/\/imgcdn3.iabilet.ro\/rV58oM_MqL_vd7uTZL-RUK0BOW4=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fb6%2F00000379191-b220.jpg","location":{"@type":"Place","name":"Atrium Cafe","address":{"@type":"PostalAddress","streetAddress":"Pia\u021ba Mic\u0103, Nr. 16","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-un-cuplu-cu-nabadai-122038\/","price":"53,03","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/122038" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-un-cuplu-cu-nabadai-122038/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/rV58oM_MqL_vd7uTZL-RUK0BOW4=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fb6%2F00000379191-b220.jpg" alt="Sibiu: Un cuplu cu năbădăi" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">09</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-un-cuplu-cu-nabadai-122038/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Un cuplu cu năbădăi</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-atrium-cafe-venue-6480/" class="venue">
+                <span>Atrium Cafe</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Vă invităm la o comedie spumoasă, plină de haz, umor și situații comice, absurde, cu crize de gelozie, cu tandrețe, cu hohote de râs.</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-un-cuplu-cu-nabadai-122038/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                53<sup>03</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Concert Simfonic - Carnavalul Filarmonicii","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-concert-simfonic-carnavalul-filarmonicii-121859\/","description":"Concert Simfonic - Carnavalul Filarmonicii - Joi, 12 februarie 2026, ora 19.00, Sala Thalia\r\nOrchestra Filarmonicii de Stat Sibiu\r\nDirijor: Marc\u2026","startDate":"2026-02-12","endDate":"2026-02-12","image":"https:\/\/imgcdn3.iabilet.ro\/RGB5AWXEzSArWPFD3XrrrAgxrCs=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2F03%2F00000378374-2df9.jpg","location":{"@type":"Place","name":"Filarmonica de Stat Sibiu - Sala Thalia","address":{"@type":"PostalAddress","streetAddress":"Str. Cetatii, nr. 3-5","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-concert-simfonic-carnavalul-filarmonicii-121859\/","price":"30","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121859" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-concert-simfonic-carnavalul-filarmonicii-121859/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/RGB5AWXEzSArWPFD3XrrrAgxrCs=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2F03%2F00000378374-2df9.jpg" alt="Sibiu: Concert Simfonic - Carnavalul Filarmonicii" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">12</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-concert-simfonic-carnavalul-filarmonicii-121859/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Concert Simfonic - Carnavalul Filarmonicii</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-filarmonica-de-stat-sibiu-sala-thalia-venue-1657/" class="venue">
+                <span>Filarmonica de Stat Sibiu - Sala Thalia</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Concert Simfonic - Carnavalul Filarmonicii - Joi, 12 februarie 2026, ora 19.00, Sala Thalia
+Orchestra Filarmonicii de Stat Sibiu
+Dirijor: Marc…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-concert-simfonic-carnavalul-filarmonicii-121859/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 30 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu Wine Festival - Editia II","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-wine-festival-editia-ii-120200\/","description":"Ridic\u0103m \u0219i ciocnim din nou paharele pentru Sibiu Wine Festival \u2013 edi\u021bia a II-a, un eveniment pentru cei care \u0219tiu s\u0103 aprecieze vinul dincolo de\u2026","startDate":"2026-02-14","endDate":"2026-02-15","image":"https:\/\/imgcdn3.iabilet.ro\/yPbKUuYRIasRrEkSkOviCwV5Hv4=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd5%2F88%2F00000371476-4e4b.png","location":{"@type":"Place","name":"Hotel Ramada Sibiu","address":{"@type":"PostalAddress","streetAddress":"Str Emil Cioran Nr 2,","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-wine-festival-editia-ii-120200\/","price":"63,63","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-multi-day" data-likable-item="event/120200" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-wine-festival-editia-ii-120200/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future multi-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/yPbKUuYRIasRrEkSkOviCwV5Hv4=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd5%2F88%2F00000371476-4e4b.png" alt="Sibiu Wine Festival - Editia II" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">14</span>
+                <span class="date-month">feb</span>
+                            </div>
+                        <div class="date-end">
+                <span class="date-day">15</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-wine-festival-editia-ii-120200/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu Wine Festival - Editia II</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-hotel-ramada-sibiu-venue-5435/" class="venue">
+                <span>Hotel Ramada Sibiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Ridicăm și ciocnim din nou paharele pentru Sibiu Wine Festival – ediția a II-a, un eveniment pentru cei care știu să aprecieze vinul dincolo de…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-wine-festival-editia-ii-120200/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 63<sup>63</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Masterclass - Spumante Cotnari","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-masterclass-spumante-cotnari-121692\/","description":"Soiuri rom\u00e2ne\u0219ti. Metoda tradi\u021bional\u0103. Timp \u0219i identitate.\r\nTe invit\u0103m la un masterclass dedicat spumantelor rom\u00e2ne\u0219ti ob\u021binute prin metoda\u2026","startDate":"2026-02-14","endDate":"2026-02-14","image":"https:\/\/imgcdn3.iabilet.ro\/i-J1ingSGs3GsprGp7nuVlt43aI=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdb%2F5c%2F00000377829-c5be.jpg","location":{"@type":"Place","name":"Hotel Ramada Sibiu","address":{"@type":"PostalAddress","streetAddress":"Str Emil Cioran Nr 2,","addressLocality":"Sibiu"}}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121692" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-masterclass-spumante-cotnari-121692/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/i-J1ingSGs3GsprGp7nuVlt43aI=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdb%2F5c%2F00000377829-c5be.jpg" alt="Sibiu: Masterclass - Spumante Cotnari" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">14</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-masterclass-spumante-cotnari-121692/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Masterclass - Spumante Cotnari</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-hotel-ramada-sibiu-venue-5435/" class="venue">
+                <span>Hotel Ramada Sibiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Soiuri românești. Metoda tradițională. Timp și identitate.
+Te invităm la un masterclass dedicat spumantelor românești obținute prin metoda…</div>
+
+        
+            </div>
+
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Retro Remix Party \u2013 Valentine\u2019s Edition cu Geo Da Silva","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-retro-remix-party-valentine-s-edition-cu-geo-da-silva-121313\/","description":"S\u00e2mb\u0103t\u0103, 14 februarie, te invit\u0103m la Retro Remix Party \u2013 Valentine\u2019s Edition, o noapte dedicat\u0103 muzicii rom\u00e2ne\u0219ti, dansului \u0219i conexiunii\u2026","startDate":"2026-02-14","endDate":"2026-02-14","image":"https:\/\/imgcdn3.iabilet.ro\/pv6SVZHQ4DI_pKo5aXFv7wRvrRA=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd9%2Fe1%2F00000375923-7a3d.jpg","location":{"@type":"Place","name":"Hotel Ramada Sibiu","address":{"@type":"PostalAddress","streetAddress":"Str Emil Cioran Nr 2,","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-retro-remix-party-valentine-s-edition-cu-geo-da-silva-121313\/","price":"65","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/121313" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-retro-remix-party-valentine-s-edition-cu-geo-da-silva-121313/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/pv6SVZHQ4DI_pKo5aXFv7wRvrRA=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd9%2Fe1%2F00000375923-7a3d.jpg" alt="Sibiu: Retro Remix Party – Valentine’s Edition cu Geo Da Silva" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">14</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-retro-remix-party-valentine-s-edition-cu-geo-da-silva-121313/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Retro Remix Party – Valentine’s Edition cu Geo Da Silva</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-hotel-ramada-sibiu-venue-5435/" class="venue">
+                <span>Hotel Ramada Sibiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Sâmbătă, 14 februarie, te invităm la Retro Remix Party – Valentine’s Edition, o noapte dedicată muzicii românești, dansului și conexiunii…</div>
+
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-retro-remix-party-valentine-s-edition-cu-geo-da-silva-121313/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 65 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Abonament anual 2026 Catan - BoardGameCommunity","url":"https:\/\/www.iabilet.ro\/bilete-abonament-anual-2026-catan-board-games-community-sibiu-120751\/","description":"Board Games Community Sibiu \u00ee\u021bi prezint\u0103 o oportunitate unic\u0103, dedicat\u0103 \u00een exclusivitate pasiona\u021bilor de Catan! Astfel am  lansat un abonament\u2026","startDate":"2026-02-15","endDate":"2026-02-15","image":"https:\/\/imgcdn3.iabilet.ro\/5xQyhdypfXgRG7dhhya6NQd4FI4=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd7%2Faf%2F00000373877-e4b2.png","location":{"@type":"Place","name":"Voodoo Lounge","address":{"@type":"PostalAddress","streetAddress":"Strada Neppendorf 1, Sibiu","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-abonament-anual-2026-catan-board-games-community-sibiu-120751\/","price":"127,26","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/120751" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-abonament-anual-2026-catan-board-games-community-sibiu-120751/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/5xQyhdypfXgRG7dhhya6NQd4FI4=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd7%2Faf%2F00000373877-e4b2.png" alt="Sibiu: Abonament anual 2026 Catan - BoardGameCommunity" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">15</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-abonament-anual-2026-catan-board-games-community-sibiu-120751/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Abonament Anual 2026 <strong>Catan</strong>  Board Games Community Sibiu</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-voodoo-lounge-venue-6886/" class="venue">
+                <span>Voodoo Lounge</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Board Games Community Sibiu îți prezintă o oportunitate unică, dedicată în exclusivitate pasionaților de Catan! Astfel am  lansat un abonament…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-abonament-anual-2026-catan-board-games-community-sibiu-120751/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 127<sup>26</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Scandalagii","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-scandalagii-119540\/","description":"\u201eScandalagiii\u201d - un spectacol care dezv\u0103luie publicului ce se \u00eent\u00e2mpl\u0103 \u00een culise, atunci c\u00e2nd se trage cortina.","startDate":"2026-02-15","endDate":"2026-02-15","image":"https:\/\/imgcdn3.iabilet.ro\/-Bn_wOkvw7jtKyifTYBv3NzONG8=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd2%2Ff4%2F00000369086-20cd.png","location":{"@type":"Place","name":"Filarmonica de Stat Sibiu - Sala Thalia","address":{"@type":"PostalAddress","streetAddress":"Str. Cetatii, nr. 3-5","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-scandalagii-119540\/","price":"75","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/119540" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-scandalagii-119540/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/-Bn_wOkvw7jtKyifTYBv3NzONG8=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd2%2Ff4%2F00000369086-20cd.png" alt="Sibiu: Scandalagii" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">15</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-scandalagii-119540/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Scandalagii</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-filarmonica-de-stat-sibiu-sala-thalia-venue-1657/" class="venue">
+                <span>Filarmonica de Stat Sibiu - Sala Thalia</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>„Scandalagiii” - un spectacol care dezvăluie publicului ce se întâmplă în culise, atunci când se trage cortina.</div>
+
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-scandalagii-119540/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 75 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Anti Valentine's Day","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-anti-valentine-s-day-119299\/","description":"Stima\u021bi intelectuali romantici din Sibiu, \r\n\r\nForma\u021bia vocal - instrumental\u0103 de dou\u0103 voci \u0219i chitar\u0103, \u021aapinarii, v\u0103 invit\u0103 duminic\u0103, 15\u2026","startDate":"2026-02-15","endDate":"2026-02-15","image":"https:\/\/imgcdn3.iabilet.ro\/R7tCZo0GfWf8lPzFPbRjz7ztI3E=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd2%2F03%2F00000369325-e028.png","location":{"@type":"Place","name":"Atrium Cafe","address":{"@type":"PostalAddress","streetAddress":"Pia\u021ba Mic\u0103, Nr. 16","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-anti-valentine-s-day-119299\/","price":"65","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/119299" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-anti-valentine-s-day-119299/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/R7tCZo0GfWf8lPzFPbRjz7ztI3E=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fd2%2F03%2F00000369325-e028.png" alt="Sibiu: Anti Valentine&#039;s Day" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">15</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-anti-valentine-s-day-119299/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Anti Valentine's Day</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-atrium-cafe-venue-6480/" class="venue">
+                <span>Atrium Cafe</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Stimați intelectuali romantici din Sibiu, 
+
+Formația vocal - instrumentală de două voci și chitară, Țapinarii, vă invită duminică, 15…</div>
+
+                <div class="text-danger">Atenție: ultimele bilete</div>
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-anti-valentine-s-day-119299/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                65 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Stand-Up Comedy cu Fr\u00eenculescu, M\u0103l\u0103ele, Mincu \u0219i Birta\u0219 - \"Scos din min\u021bi\"","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-frinculescu-malaele-mincu-si-birtas-scos-din-minti-115285\/","description":"Aten\u021bie! Preg\u0103ti\u021bi-v\u0103 s\u0103 fi\u021bi... Sco\u0219i din Min\u021bi!\r\nPatru dintre cele mai incisive \u0219i apreciate voci ale stand-up-ului rom\u00e2nesc, Dan\u2026","startDate":"2026-02-15","endDate":"2026-02-15","image":"https:\/\/imgcdn3.iabilet.ro\/kHXq_am-4rrpvE0CVt2ItBPyIpo=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fc2%2F55%2F00000373296-fca9.jpg","location":{"@type":"Place","name":"Hotel Ramada Sibiu","address":{"@type":"PostalAddress","streetAddress":"Str Emil Cioran Nr 2,","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-frinculescu-malaele-mincu-si-birtas-scos-din-minti-115285\/","price":"80","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/115285" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-stand-up-comedy-cu-frinculescu-malaele-mincu-si-birtas-scos-din-minti-115285/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/kHXq_am-4rrpvE0CVt2ItBPyIpo=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fc2%2F55%2F00000373296-fca9.jpg" alt="Sibiu: Stand-Up Comedy cu Frînculescu, Mălăele, Mincu și Birtaș - &quot;Scos din minți&quot;" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">15</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-stand-up-comedy-cu-frinculescu-malaele-mincu-si-birtas-scos-din-minti-115285/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Stand-Up Comedy cu <strong>Frînculescu, Mălăele, Mincu și Birtaș<strong> - "Scos din minți"</strong></strong></span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-hotel-ramada-sibiu-venue-5435/" class="venue">
+                <span>Hotel Ramada Sibiu</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Atenție! Pregătiți-vă să fiți... Scoși din Minți!
+Patru dintre cele mai incisive și apreciate voci ale stand-up-ului românesc, Dan…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-stand-up-comedy-cu-frinculescu-malaele-mincu-si-birtas-scos-din-minti-115285/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 80 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Stand-Up Comedy cu Vlad, B\u0103ra, Sa\u0219a & Adrian","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-vlad-bara-sasa-adrian-122045\/","description":"Dac\u0103 \u00ee\u021bi place stand-up-ul \u0219i ideea de a r\u00e2de p\u00e2n\u0103 ui\u021bi c\u0103 m\u00e2ine iar trebuie s\u0103 fii adult, atunci ai nimerit show-ul perfect. Vino s\u0103\u2026","startDate":"2026-02-15","endDate":"2026-02-15","image":"https:\/\/imgcdn3.iabilet.ro\/6SYVpI8dsCkZLf1ZNSuuGEMFqmA=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fbd%2F00000379083-116b.jpg","location":{"@type":"Place","name":"Inspirat","address":{"@type":"PostalAddress","streetAddress":"Pia\u021ba Mic\u0103 29 ","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-stand-up-comedy-cu-vlad-bara-sasa-adrian-122045\/","price":"25","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/122045" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-stand-up-comedy-cu-vlad-bara-sasa-adrian-122045/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/6SYVpI8dsCkZLf1ZNSuuGEMFqmA=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fbd%2F00000379083-116b.jpg" alt="Sibiu: Stand-Up Comedy cu Vlad, Băra, Sașa &amp; Adrian" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">15</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-stand-up-comedy-cu-vlad-bara-sasa-adrian-122045/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Stand-Up Comedy cu Vlad, Băra, Sașa &amp; Adrian</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-inspirat-venue-8564/" class="venue">
+                <span>Inspirat</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Dacă îți place stand-up-ul și ideea de a râde până uiți că mâine iar trebuie să fii adult, atunci ai nimerit show-ul perfect. Vino să…</div>
+
+        
+                <div class="text-danger">Categorii care se epuizează</div>
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-stand-up-comedy-cu-vlad-bara-sasa-adrian-122045/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 25 lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: One Man Show - R\u0103zvan Vasilescu \u201eEra ok \u0219i la 60\u201d","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-one-man-show-razvan-vasilescu-era-ok-si-la-60-122238\/","description":"V\u0103 invit\u0103m la o por\u021bie s\u0103n\u0103toas\u0103 de comedie \u0219i o lec\u021bie de via\u021b\u0103 predat\u0103 cu m\u0103iestrie de unul dintre cei mai mari actori ai Rom\u00e2niei.\u2026","startDate":"2026-02-16","endDate":"2026-02-16","image":"https:\/\/imgcdn3.iabilet.ro\/CN1xCzp4hrlK-dkAGHgHPwV7z2E=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdd%2F7e%2F00000379890-2d47.jpg","location":{"@type":"Place","name":"Atrium Cafe","address":{"@type":"PostalAddress","streetAddress":"Pia\u021ba Mic\u0103, Nr. 16","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-one-man-show-razvan-vasilescu-era-ok-si-la-60-122238\/","price":"63,63","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/122238" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-one-man-show-razvan-vasilescu-era-ok-si-la-60-122238/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/CN1xCzp4hrlK-dkAGHgHPwV7z2E=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdd%2F7e%2F00000379890-2d47.jpg" alt="Sibiu: One Man Show - Răzvan Vasilescu „Era ok și la 60”" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">16</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-one-man-show-razvan-vasilescu-era-ok-si-la-60-122238/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: One Man Show - <strong>Răzvan Vasilescu</strong> „Era ok și la 60”</span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-atrium-cafe-venue-6480/" class="venue">
+                <span>Atrium Cafe</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Vă invităm la o porție sănătoasă de comedie și o lecție de viață predată cu măiestrie de unul dintre cei mai mari actori ai României.…</div>
+
+                <div class="text-danger">Atenție: ultimele bilete</div>
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-one-man-show-razvan-vasilescu-era-ok-si-la-60-122238/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                63<sup>63</sup> lei            </div>
+        </div>
+    </div>
+    </div>
+<script type="application/ld+json">
+/*<![CDATA[*/
+{"@context":"http:\/\/www.schema.org","@type":"Event","name":"Sibiu: Melodie, Dor, Magie \u2013 Ruxandra Donose & Sergiu Tuhu\u021biu","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-melodie-dor-magie-ruxandra-donose-sergiu-tuhutiu-122029\/","description":"Mezzosoprana Ruxandra Donose, una dintre cele mai apreciate voci ale scenei lirice interna\u021bionale, \u0219i pianistul Sergiu Tuhu\u021biu revin la Sibiu cu un\u2026","startDate":"2026-02-17","endDate":"2026-02-17","image":"https:\/\/imgcdn3.iabilet.ro\/Hga1cjhFoqaqwgrUdsWcj3gCq8g=\/260x360\/center\/middle\/filters:no_upscale()\/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fad%2F00000379027-e8d1.png","location":{"@type":"Place","name":"Filarmonica de Stat Sibiu - Sala Thalia","address":{"@type":"PostalAddress","streetAddress":"Str. Cetatii, nr. 3-5","addressLocality":"Sibiu"}},"offers":{"@type":"Offer","url":"https:\/\/www.iabilet.ro\/bilete-sibiu-melodie-dor-magie-ruxandra-donose-sergiu-tuhutiu-122029\/","price":"15","priceCurrency":"RON"}}
+/*]]>*/
+</script><div  data-event-list="item" class="row event-list-item event-is-future event-single-day" data-likable-item="event/122029" data-likable-tag="like" data-likable-disabled="0">
+    <div class="col-xs-2">
+        <a href="/bilete-sibiu-melodie-dor-magie-ruxandra-donose-sergiu-tuhutiu-122029/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term=">
+            <div class="likable-image-container is-future single-day event-image poster-image" data-event-image="true"><img src="https://imgcdn3.iabilet.ro/Hga1cjhFoqaqwgrUdsWcj3gCq8g=/260x360/center/middle/filters:no_upscale()/https%3A%2F%2Fstatic3.iabilet.ro%2Fimg%2Fdb%2Fevent%2F01%2Fdc%2Fad%2F00000379027-e8d1.png" alt="Sibiu: Melodie, Dor, Magie – Ruxandra Donose &amp; Sergiu Tuhuțiu" /><div class="overlayer"></div>
+        <div class="like bottom-right">
+            <span class="counter" data-likable-counter></span>
+            <i class="icon" onclick="return false;" data-likable-button></i>
+        </div></div>        </a>
+    </div>
+
+    <div class="col-xs-1">
+        <div class="date">
+            <div class="date-start">
+                <span class="date-day">17</span>
+                <span class="date-month">feb</span>
+                            </div>
+                    </div>
+    </div>
+
+    <div class="col-xs-6 main-info">
+        <div class="title">
+            <a href="/bilete-sibiu-melodie-dor-magie-ruxandra-donose-sergiu-tuhutiu-122029/?utm_source=TownPage&utm_medium=site&utm_campaign=sibiu&utm_term="><span>Sibiu: Melodie, Dor, Magie – <strong>Ruxandra Donose &amp; Sergiu Tuhuțiu</strong></span></a>
+        </div>
+
+                <div class="location">
+            <a href="/bilete-filarmonica-de-stat-sibiu-sala-thalia-venue-1657/" class="venue">
+                <span>Filarmonica de Stat Sibiu - Sala Thalia</span>
+            </a>
+                            <span>&middot;</span>
+                                    <a href="/bilete-in-sibiu/" class="venue">
+                        <span>Sibiu</span>
+                    </a>
+                                    </div>
+        
+        <div>Mezzosoprana Ruxandra Donose, una dintre cele mai apreciate voci ale scenei lirice internaționale, și pianistul Sergiu Tuhuțiu revin la Sibiu cu un…</div>
+
+        
+            </div>
+
+        <div class="col-xs-2">
+        <div class="details">
+            <a class="btn btn-primary btn-buy-tickets" href="/bilete-sibiu-melodie-dor-magie-ruxandra-donose-sergiu-tuhutiu-122029/?utm_source=TownPage&amp;utm_medium=site&amp;utm_campaign=sibiu&amp;utm_term=">ia Bilet</a>            <div class="price">
+                de la 15 lei            </div>
+        </div>
+    </div>
+    </div>
+        <div style="clear: both;"></div>
+    </div>
+
+                    <div class="btn-more-container text-center" data-event-list="more">
+            <a href="/bilete-in-sibiu/?page=2" class="btn btn-more">mai mult</a>
+        </div>
+        
+    
+    </div>
+            </div>
+</section>
+
+<footer class="global-footer">
+    <div class="footer-top-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                                        <div class="footer-links ">
+                        <img src="https://static.iabilet.ro/img/site/logo_iabilet_footer.png" width="95" height="31" class="logo" />
+                        <ul>
+                                                            <li><a class="toggle" target='_self' href="/contact">Contact</a></li>
+                                                            <li><a class="toggle" target='_self' href="/terms/ro/">Termeni și condiții</a></li>
+                                                            <li><a class="toggle" target='_self' href="/privacy/ro/">Politică de confidențialitate</a></li>
+                                                            <li><a class="toggle" target='_self' href="/faq/">Întrebări frecvente</a></li>
+                                                            <li><a class="toggle" target='_self' href="/puncte-de-vanzare/">Rețeaua iabilet.ro</a></li>
+                                                            <li><a class="toggle" target='_self' href="/artist/">Artiști</a></li>
+                                                            <li><a class="toggle" target='_blank' href="https://www.dabilet.ro/">dăBilet.ro - revinde biletul tau in siguranta</a></li>
+                                                            <li><a class="toggle" target='_blank' href="http://www.anpc.gov.ro/">ANPC</a></li>
+                                                            <li><a class="toggle" target='_self' href="/servicii/">Servicii pentru organizatori</a></li>
+                                                            <li><a class="toggle" target='_self' href="/site-ul-tau/">Vrei propriul tău site de bilete?</a></li>
+                                                            <li><a class="toggle" target='_self' href="https://www.iabilet.ro/fiscalitate">Fiscalitate pentru organizatorii de evenimente</a></li>
+                                                            <li><a class="toggle" target='_blank' href="http://iabilet.ro/facturi">Facturi</a></li>
+                                                            <li><a class="toggle" target='_self' href="/bilete-in-cluj-napoca/bilete-revelion/">Revelion 2026</a></li>
+                                                            <li><a class="toggle" target='_blank' href="https://spotlight.iabilet.ro">Spotlight - promoveaza-ti evenimentul</a></li>
+                                                            <li><a class="toggle" target='_self' href="/bilete-voucher-cadou-iabilet-87881/">Voucher Cadou iaBilet</a></li>
+                                                    </ul>
+                        <p class="copyright">&copy; 2012-2026 iaBilet.ro</p>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="footer-nsl">
+                        <h3>Newsletter</h3>
+                        <p>În fiecare săptămână primeşti pe email cele mai tari concerte şi evenimente.</p>
+                        <form class="footer-nsl-form" action="/newsletter/" method="post"><input class="form-control" placeholder="Email" type="text" value="" name="email" id="email" /><input type="hidden" value="submit" name="submit" id="submit" /><input type="hidden" value="footer" name="source" id="source" /><button class="btn btn-submit" type="submit" name="yt0"></button></form>                                            </div>
+
+                    <div class="footer-social clearfix">
+                        <h3>Află noutățile</h3>
+                        <ul class="pull-left" style="margin-right: 15px">
+                            <li style="background-color: #4267B2"><a href="https://www.facebook.com/iaBilet/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li style="background-color: #C13584"><a href="https://www.instagram.com/iabilet/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li style="background-color: #000">
+                                <a href="https://www.tiktok.com/@iabilet" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="14" width="10.5" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>                                </a>
+                            </li>
+                        </ul>
+                        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FiaBilet%2F&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21"
+                            scrolling="no" frameborder="0"
+                            style="border:none; overflow:hidden; width:100px; height:25px;"
+                            allowTransparency="true" class="pull-left"></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="footer-mobile">
+                        <h3>Bilete pe mobil</h3>
+                        <p>Cumperi bilete oriunde te-ai afla. Intri la spectacole direct cu mobilul.</p>
+                        <p>
+                            <a href="https://itunes.apple.com/ro/app/iaBilet/id899564929" target="_blank"><img
+                                        src="https://static.iabilet.ro/img/site/logo_apple.png"
+                                        width="42" height="42" border="0"
+                                        style="display:inline;width:42px; height:42px;"/></a>
+                            <a href="https://play.google.com/store/apps/details?id=ro.imedia.iabilet"
+                               target="_blank"><img
+                                        src="https://static.iabilet.ro/img/site/logo_android.png"
+                                        width="42" height="42" border="0"
+                                        style="display:inline;width:42px; height:42px;"/></a>
+                            <a href="https://appgallery.huawei.com/app/C108022575"
+                               target="_blank"><img
+                                        src="https://static.iabilet.ro/img/site/logo_huawei.png"
+                                        width="42" height="42" border="0"
+                                        style="display:inline;width:42px; height:42px;"/></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+                        <div class="row">
+                <div class="col-xs-12 text-center">
+                    <ul class="list-inline">
+                                                    <li><a class="toggle" target='_blank' href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO"><img src="https://static.iabilet.ro/img/site/anpc-solutionare-online-a-litigiilor.svg" width="128" height="32" /></a></li>
+                                                    <li><a class="toggle" target='_blank' href="https://anpc.ro/ce-este-sal/"><img src="https://static.iabilet.ro/img/site/anpc-solutionare-alternativa-a-litigiilor-1.svg" width="128" height="32" /></a></li>
+                                                    <li><a class="toggle" target='_self' href="https://www.iabilet.ro"><img src="https://static.iabilet.ro/img/site/iso-9001.png?1" width="105" height="32" /></a></li>
+                                                    <li><a class="toggle" target='_self' href="https://www.iabilet.ro"><img src="https://static.iabilet.ro/img/site/iso-27001.png?1" width="105" height="32" /></a></li>
+                                                    <li><a class="toggle" target='_blank' href="https://www.facebook.com/photo/?fbid=326404679998293&set=a.186666000638829"><img src="https://static.iabilet.ro/img/db/event/01/66/11/00000246210-f286.png?ts=1700572993" width="116" height="56" /></a></li>
+                                                    <li><a class="toggle" target='_blank' href="https://www.listafirme.ro/ia-bilet-srl-30394071/"> <img loading="lazy" alt="firma de top" src="https://www.listafirme.ro/static/images/top5.gif" border=0></a></li>
+                                            </ul>
+                </div>
+            </div>
+                    </div>
+    </div>
+    <div class="footer-bottom-container">
+        <div class="quote">
+            "If I had asked people what they wanted, they would have said faster horses."
+            - <a href="http://ro.wikipedia.org/wiki/Henry_Ford" class="author" target="_blank">Henry Ford</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Root for the panel; we hard-isolate its visuals -->
+<div id="a11y-toolbar" class="a11y-toolbar" hidden>
+    <div id="a11y-root" class="a11y-panel" role="dialog" aria-modal="true"
+         aria-labelledby="a11y-title" aria-describedby="a11y-desc">
+
+        <div class="a11y-header">
+            <h2 id="a11y-title" class="a11y-title">Meniu de accesibilitate</h2>
+            <button type="button" class="a11y-close" aria-label="Închide">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+
+        <div class="a11y-body" id="a11y-desc">
+            <div class="a11y-actions-top">
+                <button type="button" class="a11y-btn a11y-btn-ghost" data-action="resetAll">
+                    <span class="a11y-icon-rotate">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                              d="M15.8334 6.66668L12.5 10H15C15 12.7583 12.7584 15 10 15C9.15837 15 8.35837 14.7917 7.66671 14.4167L6.45004 15.6333C7.47504 16.2833 8.69171 16.6667 10 16.6667C13.6834 16.6667 16.6667 13.6833 16.6667 10H19.1667L15.8334 6.66668ZM5.00004 10C5.00004 7.24168 7.24171 5.00001 10 5.00001C10.8417 5.00001 11.6417 5.20834 12.3334 5.58334L13.55 4.36668C12.525 3.71668 11.3084 3.33334 10 3.33334C6.31671 3.33334 3.33337 6.31668 3.33337 10H0.833374L4.16671 13.3333L7.50004 10H5.00004Z"
+                              fill="currentColor"></path>
+                        </svg>
+                    </span>
+                    Resetează setările
+                </button>
+                <button type="button" class="a11y-btn a11y-btn-outline" data-action="save">
+                    <span class="a11y-icon-hide">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                              d="M10 4.97918C13.1584 4.97918 15.975 6.75418 17.35 9.56251C16.8584 10.5792 16.1667 11.4542 15.3417 12.1625L16.5167 13.3375C17.675 12.3125 18.5917 11.0292 19.1667 9.56251C17.725 5.90418 14.1667 3.31251 10 3.31251C8.94171 3.31251 7.92504 3.47918 6.96671 3.78751L8.34171 5.16251C8.88337 5.05418 9.43337 4.97918 10 4.97918ZM9.10837 5.92918L10.8334 7.65418C11.3084 7.86251 11.6917 8.24584 11.9 8.72084L13.625 10.4458C13.6917 10.1625 13.7417 9.86251 13.7417 9.55418C13.75 7.48751 12.0667 5.81251 10 5.81251C9.69171 5.81251 9.40004 5.85418 9.10837 5.92918ZM1.67504 3.20418L3.90837 5.43751C2.55004 6.50418 1.47504 7.92084 0.833374 9.56251C2.27504 13.2208 5.83337 15.8125 10 15.8125C11.2667 15.8125 12.4834 15.5708 13.6 15.1292L16.45 17.9792L17.625 16.8042L2.85004 2.02084L1.67504 3.20418ZM7.92504 9.45418L10.1 11.6292C10.0667 11.6375 10.0334 11.6458 10 11.6458C8.85004 11.6458 7.91671 10.7125 7.91671 9.56251C7.91671 9.52084 7.92504 9.49584 7.92504 9.45418ZM5.09171 6.62084L6.55004 8.07918C6.35837 8.53751 6.25004 9.03751 6.25004 9.56251C6.25004 11.6292 7.93337 13.3125 10 13.3125C10.525 13.3125 11.025 13.2042 11.475 13.0125L12.2917 13.8292C11.5584 14.0292 10.7917 14.1458 10 14.1458C6.84171 14.1458 4.02504 12.3708 2.65004 9.56251C3.23337 8.37084 4.08337 7.38751 5.09171 6.62084Z"
+                              fill="white"></path>
+                        </svg>
+                    </span>
+                    Ascunde setările de accesibilitate
+                </button>
+            </div>
+
+            <!-- Font -->
+            <section class="a11y-section">
+                <h3 class="a11y-section-title">Setări de font</h3>
+                <div class="a11y-card">
+                    <div class="a11y-row">
+                        <div class="a11y-row-left">
+                            <span class="a11y-icon-font"></span>
+                            <div class="a11y-row-text">Mărește sau micșorează fontul</div>
+                        </div>
+                        <div class="a11y-row-right">
+                            <button type="button" class="a11y-chip" data-action="scale-dec">−</button>
+                            <span class="a11y-perc" data-bind="scale">100%</span>
+                            <button type="button" class="a11y-chip" data-action="scale-inc">+</button>
+                        </div>
+                    </div>
+                    <input type="range" class="a11y-range" data-action="scale" min="1" max="2" step="0.1" value="1"
+                           aria-valuemin="1" aria-valuemax="2" aria-valuenow="1" aria-label="Text size">
+                </div>
+            </section>
+
+            <!-- Content -->
+            <section class="a11y-section">
+                <h3 class="a11y-section-title">Ajustează conținutul</h3>
+
+                <div class="a11y-card a11y-list">
+                    <label class="a11y-list-item">
+                        <span class="a11y-icon-link">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M7.62508 17.9167C6.26478 17.9167 5.10525 17.4374 4.1465 16.4786C3.18775 15.52 2.70837 14.3607 2.70837 13.0006C2.70837 11.6404 3.18775 10.4809 4.1465 9.52198C5.10525 8.56287 6.26478 8.08331 7.62508 8.08331H10.8959C11.1261 8.08331 11.3191 8.16122 11.4747 8.31704C11.6305 8.47286 11.7084 8.66596 11.7084 8.89635C11.7084 9.12656 11.6305 9.31949 11.4747 9.47512C11.3191 9.63058 11.1261 9.70831 10.8959 9.70831H7.62373C6.71481 9.70831 5.93924 10.0295 5.297 10.6719C4.65458 11.3144 4.33337 12.0904 4.33337 13C4.33337 13.9097 4.65458 14.6857 5.297 15.3281C5.93924 15.9705 6.71481 16.2917 7.62373 16.2917H10.8959C11.1261 16.2917 11.3191 16.3696 11.4747 16.5255C11.6305 16.6813 11.7084 16.8743 11.7084 17.1045C11.7084 17.3349 11.6305 17.5278 11.4747 17.6833C11.3191 17.8389 11.1261 17.9167 10.8959 17.9167H7.62508ZM9.75004 13.8125C9.51983 13.8125 9.32691 13.7346 9.17127 13.5788C9.01545 13.423 8.93754 13.23 8.93754 12.9997C8.93754 12.7694 9.01545 12.5764 9.17127 12.421C9.32691 12.2653 9.51983 12.1875 9.75004 12.1875H16.25C16.4802 12.1875 16.6732 12.2654 16.8288 12.4212C16.9846 12.5771 17.0625 12.7701 17.0625 13.0003C17.0625 13.2307 16.9846 13.4236 16.8288 13.5791C16.6732 13.7347 16.4802 13.8125 16.25 13.8125H9.75004ZM15.1041 17.9167C14.8739 17.9167 14.681 17.8388 14.5254 17.683C14.3696 17.5272 14.2916 17.3341 14.2916 17.1037C14.2916 16.8735 14.3696 16.6806 14.5254 16.5249C14.681 16.3695 14.8739 16.2917 15.1041 16.2917H18.3764C19.2853 16.2917 20.0608 15.9705 20.7031 15.3281C21.3455 14.6857 21.6667 13.9097 21.6667 13C21.6667 12.0904 21.3455 11.3144 20.7031 10.6719C20.0608 10.0295 19.2853 9.70831 18.3764 9.70831H15.1041C14.8739 9.70831 14.681 9.6304 14.5254 9.47458C14.3696 9.31876 14.2916 9.12575 14.2916 8.89554C14.2916 8.66515 14.3696 8.47223 14.5254 8.31677C14.681 8.16113 14.8739 8.08331 15.1041 8.08331H18.375C19.7353 8.08331 20.8948 8.56269 21.8536 9.52144C22.8123 10.48 23.2917 11.6394 23.2917 12.9995C23.2917 14.3596 22.8123 15.5191 21.8536 16.4781C20.8948 17.4372 19.7353 17.9167 18.375 17.9167H15.1041Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Subliniază linkurile</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd></span>
+                        <input type="checkbox" data-action="underlineLinks" class="a11y-switch">
+                    </label>
+
+                    <label class="a11y-list-item">
+                        <span class="a11y-icon-heading">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M5.75002 22.2084C5.20276 22.2084 4.73954 22.0188 4.36038 21.6396C3.98121 21.2604 3.79163 20.7972 3.79163 20.25V5.75008C3.79163 5.20282 3.98121 4.7396 4.36038 4.36044C4.73954 3.98127 5.20276 3.79169 5.75002 3.79169H20.2499C20.7972 3.79169 21.2604 3.98127 21.6395 4.36044C22.0187 4.7396 22.2083 5.20282 22.2083 5.75008V20.25C22.2083 20.7972 22.0187 21.2604 21.6395 21.6396C21.2604 22.0188 20.7972 22.2084 20.2499 22.2084H5.75002ZM5.75002 20.5834H20.2499C20.3333 20.5834 20.4097 20.5486 20.479 20.4791C20.5485 20.4097 20.5833 20.3334 20.5833 20.25V5.75008C20.5833 5.66667 20.5485 5.59029 20.479 5.52096C20.4097 5.45144 20.3333 5.41669 20.2499 5.41669H5.75002C5.6666 5.41669 5.59023 5.45144 5.5209 5.52096C5.45138 5.59029 5.41663 5.66667 5.41663 5.75008V20.25C5.41663 20.3334 5.45138 20.4097 5.5209 20.4791C5.59023 20.5486 5.6666 20.5834 5.75002 20.5834ZM8.18752 10.3957H14.6875C15.0625 10.3957 15.3819 10.2638 15.6457 10C15.9097 9.73603 16.0417 9.41662 16.0417 9.04179C16.0417 8.66678 15.9097 8.34728 15.6457 8.08331C15.3819 7.81952 15.0625 7.68762 14.6875 7.68762H8.18752C7.81251 7.68762 7.49302 7.81952 7.22904 8.08331C6.96525 8.34728 6.83335 8.66678 6.83335 9.04179C6.83335 9.41662 6.96525 9.73603 7.22904 10C7.49302 10.2638 7.81251 10.3957 8.18752 10.3957Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Subliniază titlurile</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd></span>
+                        <input type="checkbox" data-action="underlineHeadings" class="a11y-switch">
+                    </label>
+
+                    <label class="a11y-list-item">
+                        <span class="a11y-icon-motion">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M9.75004 23.2917C8.77233 23.2917 7.85773 23.107 7.00623 22.7376C6.15491 22.3682 5.41048 21.8647 4.77294 21.2271C4.13539 20.5896 3.63192 19.8452 3.2625 18.9939C2.89308 18.1424 2.70837 17.2277 2.70837 16.25C2.70837 14.8778 3.06849 13.6198 3.78873 12.476C4.50878 11.3323 5.47232 10.4724 6.67933 9.89602C7.02654 9.17091 7.4699 8.5386 8.0094 7.9991C8.54908 7.45942 9.17795 7.0195 9.89602 6.67933C10.4501 5.48622 11.2977 4.52612 12.4386 3.79902C13.5795 3.07192 14.85 2.70837 16.25 2.70837C17.2277 2.70837 18.1424 2.89308 18.9939 3.2625C19.8452 3.63192 20.5896 4.13539 21.2271 4.77294C21.8647 5.41048 22.3682 6.15491 22.7376 7.00623C23.107 7.85773 23.2917 8.77233 23.2917 9.75004C23.2917 11.1874 22.9334 12.4583 22.2168 13.5626C21.5 14.6667 20.5346 15.5138 19.3207 16.1041C18.9735 16.8292 18.5319 17.4598 17.9958 17.9958C17.4598 18.5319 16.8292 18.9735 16.1041 19.3207C15.5277 20.5139 14.6746 21.474 13.5447 22.2011C12.415 22.9282 11.1501 23.2917 9.75004 23.2917ZM9.77089 21.6667C10.4709 21.6667 11.1604 21.5243 11.8395 21.2396C12.5188 20.9549 13.0931 20.5347 13.5626 19.9791C12.4875 20.0765 11.474 19.9386 10.5219 19.5656C9.56985 19.1927 8.7438 18.6597 8.04379 17.9666C7.34378 17.2666 6.80735 16.4423 6.4345 15.4939C6.06147 14.5452 5.92362 13.5334 6.02094 12.4584C5.47223 12.9347 5.05379 13.5072 4.76562 14.176C4.47746 14.8448 4.33337 15.5361 4.33337 16.25C4.33337 17.0084 4.47782 17.7143 4.76671 18.3677C5.0556 19.0211 5.44379 19.5916 5.93129 20.0791C6.42565 20.5666 6.99964 20.9531 7.65325 21.2385C8.30668 21.524 9.01256 21.6667 9.77089 21.6667ZM13 18.4167C13.8181 18.4167 14.5567 18.2535 15.2157 17.927C15.8748 17.6006 16.4181 17.2013 16.8459 16.7291C15.7598 16.8265 14.7408 16.6858 13.7887 16.3072C12.8366 15.9287 12.0106 15.393 11.3106 14.7001C10.6106 14 10.0713 13.1757 9.6929 12.2271C9.31427 11.2784 9.17362 10.2611 9.27094 9.17506C8.77784 9.62356 8.37683 10.1791 8.0679 10.8418C7.75878 11.5042 7.60423 12.2237 7.60423 13C7.60423 13.7584 7.74416 14.4625 8.02402 15.1125C8.30388 15.7625 8.69307 16.3313 9.19158 16.8188C9.67908 17.3243 10.2461 17.7171 10.8927 17.9969C11.5393 18.2768 12.2417 18.4167 13 18.4167ZM16.2709 15.1667C16.5959 15.1667 16.9074 15.1396 17.2053 15.0855C17.5032 15.0313 17.8056 14.95 18.1126 14.8417C18.5098 13.7584 18.5685 12.7157 18.2886 11.7136C18.0087 10.7115 17.5258 9.8674 16.8396 9.18129C16.1535 8.49518 15.3094 8.01219 14.3074 7.73233C13.3053 7.45247 12.2626 7.51115 11.1792 7.90837C11.0709 8.21532 10.9896 8.51775 10.9355 8.81567C10.8813 9.11358 10.8542 9.42504 10.8542 9.75004C10.8542 10.5084 10.9942 11.2125 11.274 11.8625C11.5539 12.5125 11.9466 13.0813 12.4521 13.5688C12.9396 14.0743 13.5084 14.4671 14.1584 14.7469C14.8084 15.0268 15.5126 15.1667 16.2709 15.1667ZM20 13.575C20.5278 13.1056 20.9375 12.5518 21.2293 11.9137C21.5209 11.2755 21.6667 10.5542 21.6667 9.75004C21.6667 8.99171 21.5268 8.28754 21.2469 7.63754C20.9671 6.98754 20.5743 6.41879 20.0688 5.93129C19.5813 5.42574 19.0125 5.03303 18.3625 4.75317C17.7125 4.4733 17.0084 4.33337 16.25 4.33337C15.4722 4.33337 14.7628 4.48098 14.1218 4.77619C13.4809 5.07121 12.9153 5.48613 12.4251 6.02094C13.5111 5.92362 14.5302 6.06427 15.4822 6.4429C16.4343 6.82134 17.2603 7.35705 17.9604 8.05002C18.6604 8.75003 19.1996 9.57436 19.578 10.523C19.9565 11.4716 20.0971 12.489 20 13.575Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Dezactivează animațiile</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd></span>
+                        <input type="checkbox" data-action="motionOff" class="a11y-switch">
+                    </label>
+                </div>
+            </section>
+
+            <!-- Colors -->
+            <section class="a11y-section">
+                <h3 class="a11y-section-title">Ajustează culorile</h3>
+
+                <div class="a11y-card a11y-list">
+                    <label class="a11y-list-item">
+                        <span class="a11y-icon-bw">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M20.2499 22.2084H5.75002C5.20276 22.2084 4.73954 22.0188 4.36038 21.6396C3.98121 21.2604 3.79163 20.7972 3.79163 20.25V5.75008C3.79163 5.20282 3.98121 4.7396 4.36038 4.36044C4.73954 3.98127 5.20276 3.79169 5.75002 3.79169H20.2499C20.7972 3.79169 21.2604 3.98127 21.6395 4.36044C22.0187 4.7396 22.2083 5.20282 22.2083 5.75008V20.25C22.2083 20.7972 22.0187 21.2604 21.6395 21.6396C21.2604 22.0188 20.7972 22.2084 20.2499 22.2084ZM5.5209 20.4791C5.54166 20.5 5.57118 20.5226 5.60946 20.5468C5.64756 20.5712 5.69441 20.5834 5.75002 20.5834H13V11.9167L20.479 20.4791C20.5 20.4583 20.5225 20.4288 20.5467 20.3905C20.5711 20.3524 20.5833 20.3056 20.5833 20.25V5.75008C20.5833 5.65276 20.5521 5.57287 20.4896 5.5104C20.4271 5.44792 20.3472 5.41669 20.2499 5.41669H13V11.9167L5.5209 20.4791Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Alb-negru</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></span>
+                        <input type="checkbox" data-action="grayscale" class="a11y-switch">
+                    </label>
+
+                    <label class="a11y-list-item">
+                        <span class="a11y-icon-contrast">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M5.75002 22.2084C5.20276 22.2084 4.73954 22.0188 4.36038 21.6396C3.98121 21.2604 3.79163 20.7972 3.79163 20.25V5.75008C3.79163 5.20282 3.98121 4.7396 4.36038 4.36044C4.73954 3.98127 5.20276 3.79169 5.75002 3.79169H20.2499C20.7972 3.79169 21.2604 3.98127 21.6395 4.36044C22.0187 4.7396 22.2083 5.20282 22.2083 5.75008V20.25C22.2083 20.7972 22.0187 21.2604 21.6395 21.6396C21.2604 22.0188 20.7972 22.2084 20.2499 22.2084H5.75002ZM5.75002 20.5834H20.2499C20.3333 20.5834 20.4097 20.5486 20.479 20.4791C20.5485 20.4098 20.5833 20.3334 20.5833 20.25V5.75008C20.5833 5.70837 20.5746 5.66847 20.5573 5.63038C20.54 5.5921 20.5139 5.55562 20.479 5.52096L5.5209 20.4791C5.55556 20.5139 5.59204 20.54 5.63031 20.5574C5.66841 20.5747 5.70831 20.5834 5.75002 20.5834ZM8.55206 9.84373V11.3647C8.55206 11.5512 8.613 11.7055 8.73488 11.8276C8.85675 11.9495 9.01095 12.0104 9.19746 12.0104C9.38379 12.0104 9.53808 11.9495 9.66031 11.8276C9.78255 11.7055 9.84367 11.5512 9.84367 11.3647V9.84373H11.3647C11.5512 9.84373 11.7055 9.78279 11.8275 9.66092C11.9494 9.53904 12.0103 9.38485 12.0103 9.19833C12.0103 9.012 11.9494 8.85771 11.8275 8.73548C11.7055 8.61324 11.5512 8.55213 11.3647 8.55213H9.84367V7.0314C9.84367 6.8447 9.78273 6.69042 9.66086 6.56854C9.53898 6.44649 9.38479 6.38546 9.19827 6.38546C9.01194 6.38546 8.85765 6.44649 8.73542 6.56854C8.61318 6.69042 8.55206 6.8447 8.55206 7.0314V8.55213H7.03133C6.84464 8.55213 6.69036 8.61306 6.56848 8.73494C6.44642 8.85681 6.3854 9.01101 6.3854 9.19752C6.3854 9.38385 6.44642 9.53814 6.56848 9.66038C6.69036 9.78261 6.84464 9.84373 7.03133 9.84373H8.55206ZM17.7772 17.1145H13.9855C13.7988 17.1145 13.6445 17.0536 13.5227 16.9317C13.4006 16.8098 13.3396 16.6556 13.3396 16.4691C13.3396 16.2828 13.4006 16.1285 13.5227 16.0063C13.6445 15.884 13.7988 15.8229 13.9855 15.8229H17.7772C17.9637 15.8229 18.1179 15.8839 18.2398 16.0057C18.3618 16.1276 18.4229 16.2818 18.4229 16.4683C18.4229 16.6546 18.3618 16.8089 18.2398 16.9312C18.1179 17.0534 17.9637 17.1145 17.7772 17.1145Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Contrast crescut</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>8</kbd></span>
+                        <input type="checkbox" data-action="contrastHigh" class="a11y-switch">
+                    </label>
+
+                    <label class="a11y-list-item">
+                        <span class="a11y-icon-invert">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M13 22.2083C10.7445 22.2083 8.82646 21.4287 7.24588 19.8696C5.66529 18.3107 4.875 16.4215 4.875 14.2019C4.875 13.0729 5.0886 12.0375 5.51579 11.0957C5.94281 10.1541 6.5223 9.30697 7.25427 8.55423L11.9771 3.92298C12.1257 3.7854 12.2889 3.68122 12.4667 3.61044C12.6444 3.53966 12.8222 3.50427 13 3.50427C13.1778 3.50427 13.3556 3.53966 13.5333 3.61044C13.7111 3.68122 13.8743 3.7854 14.0229 3.92298L18.7457 8.55423C19.4777 9.30697 20.0572 10.1594 20.4842 11.1114C20.9114 12.0635 21.125 13.0937 21.125 14.2019C21.125 16.4215 20.3347 18.3107 18.7541 19.8696C17.1735 21.4287 15.2555 22.2083 13 22.2083ZM13 20.5833V5.19996L8.39583 9.74996C7.76389 10.3458 7.28993 11.0201 6.97396 11.7728C6.65799 12.5256 6.5 13.3353 6.5 14.2019C6.5 15.9533 7.13194 17.4547 8.39583 18.7061C9.65972 19.9576 11.1944 20.5833 13 20.5833Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Inversează culorile</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>/</kbd></span>
+                        <input type="checkbox" data-action="invert" class="a11y-switch">
+                    </label>
+                </div>
+            </section>
+
+            <!-- Cursor -->
+            <section class="a11y-section">
+                <h3 class="a11y-section-title">Ajustează cursorul</h3>
+
+                <div class="a11y-card a11y-list">
+                    <button type="button" class="a11y-list-item a11y-btn-row" data-action="cursorLight">
+                        <span class="a11y-icon-cursor-light">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M8.52073 15.3541L10.8791 12.0626H15.8273L8.52073 6.31662V15.3541ZM15.9957 22.2709C15.65 22.4346 15.3042 22.452 14.9584 22.3229C14.6125 22.1936 14.3576 21.9561 14.1939 21.6103L10.9856 14.7165L8.6751 17.9354C8.39596 18.327 8.02961 18.4502 7.57606 18.3051C7.12268 18.1599 6.896 17.8499 6.896 17.375V4.9917C6.896 4.58202 7.07998 4.28826 7.44795 4.11041C7.81611 3.93274 8.16332 3.97093 8.48958 4.22497L18.2959 11.9416C18.6695 12.2277 18.7775 12.5903 18.6198 13.0292C18.4622 13.468 18.1493 13.6873 17.6811 13.6873H13.4854L16.6563 20.4687C16.8202 20.8145 16.8376 21.1603 16.7083 21.506C16.5792 21.852 16.3417 22.1069 15.9957 22.2709Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Cursor mare deschis</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>[</kbd></span>
+                    </button>
+
+                    <button type="button" class="a11y-list-item a11y-btn-row" data-action="cursorDark">
+                        <span class="a11y-icon-cursor-dark">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M15.9957 22.2709C15.65 22.4346 15.3042 22.452 14.9584 22.3229C14.6125 22.1936 14.3576 21.9561 14.1939 21.6103L10.9856 14.7165L8.6751 17.9354C8.39596 18.327 8.02961 18.4502 7.57606 18.3051C7.12268 18.1599 6.896 17.8499 6.896 17.375V4.9917C6.896 4.58202 7.07998 4.28826 7.44795 4.11041C7.81611 3.93274 8.16332 3.97093 8.48958 4.22497L18.2959 11.9416C18.6695 12.2277 18.7775 12.5903 18.6198 13.0292C18.4622 13.468 18.1493 13.6873 17.6811 13.6873H13.4854L16.6563 20.4687C16.8202 20.8145 16.8376 21.1603 16.7083 21.506C16.5792 21.852 16.3417 22.1069 15.9957 22.2709Z"
+                                  fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span class="a11y-list-text">Cursor mare închis</span>
+                        <span class="a11y-kbd"><kbd>Ctrl/Cmd</kbd> + <kbd>]</kbd></span>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <div class="a11y-footer">
+            <p class="a11y-help">
+                Navigare: Tab / Shift+Tab • Închidere: Esc • Meniu: Alt/Cmd/Ctrl + A
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Floating button (your SVG icon) -->
+<button id="a11y-toggle" class="a11y-fab" aria-label="Meniu de accesibilitate" title="Meniu de accesibilitate"
+        aria-expanded="false">
+    <!-- use currentColor so theme can tint it -->
+    <svg class="a11y-fab-icon" width="24" height="24" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+        <rect x="1" y="1" width="46" height="46" rx="23" stroke="currentColor" stroke-width="2"></rect>
+        <rect x="3" y="3" width="42" height="42" rx="21" fill="currentColor"></rect>
+        <rect x="3" y="3" width="42" height="42" rx="21" stroke="white" stroke-width="2"></rect>
+        <path
+            d="M24 16.3797C23.3606 16.3797 22.8162 16.155 22.3666 15.7057C21.917 15.2561 21.6922 14.7116 21.6922 14.0722C21.6922 13.4328 21.917 12.8884 22.3666 12.4388C22.8162 11.9892 23.3606 11.7644 24 11.7644C24.6394 11.7644 25.1839 11.9892 25.6334 12.4388C26.083 12.8884 26.3078 13.4328 26.3078 14.0722C26.3078 14.7116 26.083 15.2561 25.6334 15.7057C25.1839 16.155 24.6394 16.3797 24 16.3797ZM20.755 35.25V19.8894C19.6619 19.7982 18.5805 19.6796 17.5109 19.5338C16.4412 19.3879 15.4063 19.2004 14.4063 18.9713C14.1323 18.904 13.91 18.7541 13.7394 18.5216C13.5685 18.2893 13.5232 18.0401 13.6034 17.7741C13.6837 17.5001 13.8503 17.3018 14.1034 17.1791C14.3566 17.0566 14.6266 17.029 14.9134 17.0963C16.3799 17.4167 17.8735 17.6498 19.3944 17.7957C20.9152 17.9415 22.4504 18.0144 24 18.0144C25.5496 18.0144 27.0848 17.9415 28.6056 17.7957C30.1265 17.6498 31.6201 17.4167 33.0866 17.0963C33.3734 17.029 33.6434 17.0566 33.8966 17.1791C34.1497 17.3018 34.3164 17.5001 34.3966 17.7741C34.4768 18.0401 34.4315 18.2893 34.2606 18.5216C34.09 18.7541 33.8677 18.904 33.5938 18.9713C32.5938 19.2004 31.5589 19.3879 30.4891 19.5338C29.4195 19.6796 28.3381 19.7982 27.245 19.8894V35.25C27.245 35.5161 27.1553 35.7388 26.9759 35.9182C26.7964 36.0977 26.5736 36.1875 26.3078 36.1875C26.0418 36.1875 25.819 36.0977 25.6394 35.9182C25.46 35.7388 25.3703 35.5161 25.3703 35.25V28.5432H22.6297V35.25C22.6297 35.5161 22.54 35.7388 22.3606 35.9182C22.181 36.0977 21.9582 36.1875 21.6922 36.1875C21.4264 36.1875 21.2037 36.0977 21.0241 35.9182C20.8447 35.7388 20.755 35.5161 20.755 35.25Z"
+            fill="white"></path>
+    </svg>
+</button>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+preloadFonts();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
+initHeaderCalendar("ro_RO");
+    window.cookieconsent.initialise({
+        theme: 'block',
+        position: 'bottom',
+        type: 'opt-in',
+        compliance: {
+            'opt-in': '<div class="cc-compliance">{{dismiss}} {{allow}}</div>',
+        },
+        content: {
+            'message': "Folosim cookie-uri pentru a \u00eembun\u0103t\u0103\u021bi experien\u021ba de navigare.",
+            'dismiss': "Accept necesare",
+            'allow': "Accept toate",
+            'link': "Politica de cookies",
+            'href': "\/cookies\/ro\/"
+        },
+        elements: {
+            message: '<div id="cookieconsent:desc" class="cc-message"></div>',
+        },
+        palette: {"popup":{"background":"#26262a","text":"#ffffff","link":"#006aca"},"button":{"background":"#006aca"}},
+        window: '<div role="dialog" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window {{classes}}"><div class="inner text-left">{{children}}</div></div>',
+        autoOpen: true,
+        animateRevokable: false,
+        revokeBtn: '<div class="cc-revoke {{classes}} hide">{{policy}}</div>',
+        cookie: {
+            'name': 'cookiepermission_v3',
+            'domain': 'iabilet.ro',
+        },
+        onPopupOpen: function () {
+            $('body').css('padding-bottom', this.element.clientHeight + 'px');
+        },
+        onPopupClose: function () {
+            $('body').css('padding-bottom', 0);
+        },
+        onStatusChange: function (status) {
+            if (this.hasConsented() && status == 'allow' && typeof consentGrantedAll === 'function') {
+                consentGrantedAll();
+            }
+        }
+    }, function (popup) {
+        window.ccRevokeChoice = function () {
+            popup.revokeChoice();
+        }
+    });
+
+$(document).ready(function () {
+    initHeaderAutocomplete();
+    initHeaderMenu();
+    initGASearchMonitor();
+});
+
+});
+/*]]>*/
+</script>
+</body>
+</html>

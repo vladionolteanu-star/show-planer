@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "adjud",
+    "name": "Adjud"
+  },
+  {
+    "slug": "alba-iulia",
+    "name": "Alba Iulia"
+  },
+  {
+    "slug": "alexandria",
+    "name": "Alexandria"
+  },
+  {
+    "slug": "arad",
+    "name": "Arad"
+  },
+  {
+    "slug": "austria",
+    "name": "Austria"
+  },
+  {
+    "slug": "bacau",
+    "name": "Bac\u0103u"
+  },
+  {
+    "slug": "baia-mare",
+    "name": "Baia Mare"
+  },
+  {
+    "slug": "baldovinesti-braila",
+    "name": "Baldovine\u0219ti"
+  },
+  {
+    "slug": "balotesti-ilfov",
+    "name": "Balote\u0219ti"
+  },
+  {
+    "slug": "barcani",
+    "name": "Barcani"
+  },
+  {
+    "slug": "beclean-bistrita-nasaud",
+    "name": "Beclean"
+  },
+  {
+    "slug": "belgia",
+    "name": "Belgia"
+  },
+  {
+    "slug": "bistrita",
+    "name": "Bistri\u021ba"
+  },
+  {
+    "slug": "blaj-alba",
+    "name": "Blaj"
+  },
+  {
+    "slug": "bobalna-cluj",
+    "name": "Bob\u00e2lna"
+  },
+  {
+    "slug": "boldesti-scaeni",
+    "name": "Bolde\u0219ti-Sc\u0103eni"
+  },
+  {
+    "slug": "bontida",
+    "name": "Bon\u021bida"
+  },
+  {
+    "slug": "botosani",
+    "name": "Boto\u0219ani"
+  },
+  {
+    "slug": "brasov",
+    "name": "Bra\u0219ov"
+  },
+  {
+    "slug": "breb",
+    "name": "Breb"
+  },
+  {
+    "slug": "brezoi",
+    "name": "Brezoi"
+  },
+  {
+    "slug": "braila",
+    "name": "Br\u0103ila"
+  },
+  {
+    "slug": "bucuresti",
+    "name": "Bucure\u0219ti"
+  },
+  {
+    "slug": "buzad",
+    "name": "Buzad"
+  },
+  {
+    "slug": "buzau",
+    "name": "Buz\u0103u"
+  },
+  {
+    "slug": "barlad",
+    "name": "B\u00e2rlad"
+  },
+  {
+    "slug": "barnova",
+    "name": "B\u00e2rnova"
+  },
+  {
+    "slug": "babutiu",
+    "name": "B\u0103bu\u021biu"
+  },
+  {
+    "slug": "baicoi",
+    "name": "B\u0103icoi"
+  },
+  {
+    "slug": "caracal",
+    "name": "Caracal"
+  },
+  {
+    "slug": "caransebes",
+    "name": "Caransebe\u0219"
+  },
+  {
+    "slug": "chiajna",
+    "name": "Chiajna"
+  },
+  {
+    "slug": "chiscani",
+    "name": "Chi\u0219cani"
+  },
+  {
+    "slug": "cisnadie",
+    "name": "Cisn\u0103die"
+  },
+  {
+    "slug": "cluj-napoca",
+    "name": "Cluj-Napoca"
+  },
+  {
+    "slug": "codlea",
+    "name": "Codlea"
+  },
+  {
+    "slug": "constanta",
+    "name": "Constan\u021ba"
+  },
+  {
+    "slug": "corbeanca-ilfov",
+    "name": "Corbeanca"
+  },
+  {
+    "slug": "corbu-harghita",
+    "name": "Corbu"
+  },
+  {
+    "slug": "costinesti-constanta",
+    "name": "Costine\u0219ti"
+  },
+  {
+    "slug": "craiova",
+    "name": "Craiova"
+  },
+  {
+    "slug": "cristur",
+    "name": "Cristur"
+  },
+  {
+    "slug": "cugir",
+    "name": "Cugir"
+  },
+  {
+    "slug": "curtea-de-arges",
+    "name": "Curtea de Arge\u0219"
+  },
+  {
+    "slug": "campina",
+    "name": "C\u00e2mpina"
+  },
+  {
+    "slug": "campulung",
+    "name": "C\u00e2mpulung"
+  },
+  {
+    "slug": "campulung-moldovenesc",
+    "name": "C\u00e2mpulung Moldovenesc"
+  },
+  {
+    "slug": "calarasi",
+    "name": "C\u0103l\u0103ra\u0219i"
+  },
+  {
+    "slug": "darabani-botosani",
+    "name": "Darabani"
+  },
+  {
+    "slug": "dej",
+    "name": "Dej"
+  },
+  {
+    "slug": "deva",
+    "name": "Deva"
+  },
+  {
+    "slug": "domnesti-ilfov",
+    "name": "Domne\u0219ti"
+  },
+  {
+    "slug": "drobeta-turnu-severin",
+    "name": "Drobeta-Turnu Severin"
+  },
+  {
+    "slug": "durusa",
+    "name": "Duru\u0219a"
+  },
+  {
+    "slug": "darmanesti-bacau",
+    "name": "D\u0103rm\u0103ne\u0219ti"
+  },
+  {
+    "slug": "feleacu",
+    "name": "Feleacu"
+  },
+  {
+    "slug": "floresti-cluj",
+    "name": "Flore\u0219ti"
+  },
+  {
+    "slug": "focsani",
+    "name": "Foc\u0219ani"
+  },
+  {
+    "slug": "fagaras",
+    "name": "F\u0103g\u0103ra\u0219"
+  },
+  {
+    "slug": "falticeni",
+    "name": "F\u0103lticeni"
+  },
+  {
+    "slug": "galati",
+    "name": "Gala\u021bi"
+  },
+  {
+    "slug": "germania",
+    "name": "Germania"
+  },
+  {
+    "slug": "gherla",
+    "name": "Gherla"
+  },
+  {
+    "slug": "ghimbav",
+    "name": "Ghimbav"
+  },
+  {
+    "slug": "ghiroda",
+    "name": "Ghiroda"
+  },
+  {
+    "slug": "giurgiu",
+    "name": "Giurgiu"
+  },
+  {
+    "slug": "gura-humorului",
+    "name": "Gura Humorului"
+  },
+  {
+    "slug": "gaesti",
+    "name": "G\u0103e\u0219ti"
+  },
+  {
+    "slug": "horezu-valcea",
+    "name": "Horezu"
+  },
+  {
+    "slug": "hunedoara",
+    "name": "Hunedoara"
+  },
+  {
+    "slug": "iasi",
+    "name": "Ia\u0219i"
+  },
+  {
+    "slug": "lehliu",
+    "name": "Lehliu"
+  },
+  {
+    "slug": "lugoj",
+    "name": "Lugoj"
+  },
+  {
+    "slug": "luna-de-jos",
+    "name": "Luna de Jos"
+  },
+  {
+    "slug": "lupeni-hunedoara",
+    "name": "Lupeni"
+  },
+  {
+    "slug": "luxemburg",
+    "name": "Luxemburg"
+  },
+  {
+    "slug": "mamaia",
+    "name": "Mamaia"
+  },
+  {
+    "slug": "mangalia",
+    "name": "Mangalia"
+  },
+  {
+    "slug": "marea-britanie",
+    "name": "Marea Britanie"
+  },
+  {
+    "slug": "medias",
+    "name": "Media\u0219"
+  },
+  {
+    "slug": "merisani-arges",
+    "name": "Meri\u0219ani"
+  },
+  {
+    "slug": "mioveni",
+    "name": "Mioveni"
+  },
+  {
+    "slug": "moldova",
+    "name": "Moldova"
+  },
+  {
+    "slug": "magureni-prahova",
+    "name": "M\u0103gureni"
+  },
+  {
+    "slug": "nedelea",
+    "name": "Nedelea"
+  },
+  {
+    "slug": "oltenita",
+    "name": "Olteni\u021ba"
+  },
+  {
+    "slug": "onesti-bacau",
+    "name": "One\u0219ti"
+  },
+  {
+    "slug": "oradea",
+    "name": "Oradea"
+  },
+  {
+    "slug": "pascani",
+    "name": "Pa\u0219cani"
+  },
+  {
+    "slug": "periam",
+    "name": "Periam"
+  },
+  {
+    "slug": "petrosani-hunedoara",
+    "name": "Petro\u0219ani"
+  },
+  {
+    "slug": "piatra-neamt",
+    "name": "Piatra-Neam\u021b"
+  },
+  {
+    "slug": "pitesti",
+    "name": "Pite\u0219ti"
+  },
+  {
+    "slug": "ploiesti",
+    "name": "Ploie\u0219ti"
+  },
+  {
+    "slug": "popesti-leordeni",
+    "name": "Pope\u0219ti Leordeni"
+  },
+  {
+    "slug": "porumbacu-de-sus",
+    "name": "Porumbacu de Sus"
+  },
+  {
+    "slug": "potigrafu",
+    "name": "Potigrafu"
+  },
+  {
+    "slug": "pucioasa",
+    "name": "Pucioasa"
+  },
+  {
+    "slug": "reghin",
+    "name": "Reghin"
+  },
+  {
+    "slug": "resita",
+    "name": "Re\u0219i\u021ba"
+  },
+  {
+    "slug": "roman",
+    "name": "Roman"
+  },
+  {
+    "slug": "ramnicu-valcea",
+    "name": "R\u00e2mnicu V\u00e2lcea"
+  },
+  {
+    "slug": "rasnov",
+    "name": "R\u00e2\u0219nov"
+  },
+  {
+    "slug": "radauti",
+    "name": "R\u0103d\u0103u\u021bi"
+  },
+  {
+    "slug": "satu-mare",
+    "name": "Satu Mare"
+  },
+  {
+    "slug": "sebes-alba",
+    "name": "Sebe\u0219"
+  },
+  {
+    "slug": "sibiu",
+    "name": "Sibiu"
+  },
+  {
+    "slug": "sighetu-marmatiei",
+    "name": "Sighetu Marma\u021biei"
+  },
+  {
+    "slug": "sighisoara",
+    "name": "Sighi\u0219oara"
+  },
+  {
+    "slug": "slatina",
+    "name": "Slatina"
+  },
+  {
+    "slug": "slobozia",
+    "name": "Slobozia"
+  },
+  {
+    "slug": "snagov",
+    "name": "Snagov"
+  },
+  {
+    "slug": "somova",
+    "name": "Somova"
+  },
+  {
+    "slug": "suceava",
+    "name": "Suceava"
+  },
+  {
+    "slug": "santana-de-mures",
+    "name": "S\u00e2ntana de Mure\u0219"
+  },
+  {
+    "slug": "sacele-brasov",
+    "name": "S\u0103cele"
+  },
+  {
+    "slug": "tecuci-galati",
+    "name": "Tecuci"
+  },
+  {
+    "slug": "timisoara",
+    "name": "Timi\u0219oara"
+  },
+  {
+    "slug": "topoloveni",
+    "name": "Topoloveni"
+  },
+  {
+    "slug": "tulcea",
+    "name": "Tulcea"
+  },
+  {
+    "slug": "targoviste",
+    "name": "T\u00e2rgovi\u0219te"
+  },
+  {
+    "slug": "targu-jiu",
+    "name": "T\u00e2rgu Jiu"
+  },
+  {
+    "slug": "targu-mures",
+    "name": "T\u00e2rgu Mure\u0219"
+  },
+  {
+    "slug": "targu-neamt",
+    "name": "T\u00e2rgu Neam\u021b"
+  },
+  {
+    "slug": "targu-ocna",
+    "name": "T\u00e2rgu Ocna"
+  },
+  {
+    "slug": "vadu-oii-buzau",
+    "name": "Vadu Oii"
+  },
+  {
+    "slug": "vaslui",
+    "name": "Vaslui"
+  },
+  {
+    "slug": "vatra-dornei",
+    "name": "Vatra Dornei"
+  },
+  {
+    "slug": "venus",
+    "name": "Venus"
+  },
+  {
+    "slug": "voluntari",
+    "name": "Voluntari"
+  },
+  {
+    "slug": "valenii-de-munte",
+    "name": "V\u0103lenii de Munte"
+  },
+  {
+    "slug": "zalau",
+    "name": "Zal\u0103u"
+  },
+  {
+    "slug": "insuratei-braila",
+    "name": "\u00censur\u0103\u021bei"
+  },
+  {
+    "slug": "intorsura-buzaului",
+    "name": "\u00centorsura Buz\u0103ului"
+  },
+  {
+    "slug": "stefanesti-arges-13409",
+    "name": "\u0218tef\u0103ne\u0219ti"
+  }
+]
