@@ -18,6 +18,7 @@ function App() {
 
   // UI State
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   // All Cities for Selector
   const [allCities, setAllCities] = useState([]);
