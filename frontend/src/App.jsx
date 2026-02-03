@@ -364,7 +364,6 @@ function App() {
                   right: 'dayGridMonth,timeGridWeek'
                 }}
                 height="100%"
-                contentHeight="auto"
                 eventDisplay="block"
                 eventContent={(arg) => {
                   const { is_standup, image, location, price } = arg.event.extendedProps;
