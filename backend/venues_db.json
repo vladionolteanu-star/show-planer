@@ -1,0 +1,1952 @@
+{
+  "_global": [
+    {
+      "name": " Cinema Dacia ",
+      "url": "https://www.iabilet.ro/cauta/?q= Cinema Dacia ",
+      "is_derived": true
+    },
+    {
+      "name": " Sport’s Pub",
+      "url": "https://www.iabilet.ro/cauta/?q= Sport’s Pub",
+      "is_derived": true
+    },
+    {
+      "name": " THE OLD REP THEATRE",
+      "url": "https://www.iabilet.ro/cauta/?q= THE OLD REP THEATRE",
+      "is_derived": true
+    },
+    {
+      "name": "21 Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=21 Pub",
+      "is_derived": true
+    },
+    {
+      "name": "ATP Tech Center",
+      "url": "https://www.iabilet.ro/cauta/?q=ATP Tech Center",
+      "is_derived": true
+    },
+    {
+      "name": "Aby Stage Bar",
+      "url": "https://www.iabilet.ro/cauta/?q=Aby Stage Bar",
+      "is_derived": true
+    },
+    {
+      "name": "AkZent Theater",
+      "url": "https://www.iabilet.ro/cauta/?q=AkZent Theater",
+      "is_derived": true
+    },
+    {
+      "name": "Art Rock Cafe",
+      "url": "https://www.iabilet.ro/cauta/?q=Art Rock Cafe",
+      "is_derived": true
+    },
+    {
+      "name": "Atelier Café",
+      "url": "https://www.iabilet.ro/cauta/?q=Atelier Café",
+      "is_derived": true
+    },
+    {
+      "name": "Atelierul de Pizza",
+      "url": "https://www.iabilet.ro/cauta/?q=Atelierul de Pizza",
+      "is_derived": true
+    },
+    {
+      "name": "Ateneul Nicolae Bălănescu",
+      "url": "https://www.iabilet.ro/cauta/?q=Ateneul Nicolae Bălănescu",
+      "is_derived": true
+    },
+    {
+      "name": "Ateneul Popular Focsani",
+      "url": "https://www.iabilet.ro/cauta/?q=Ateneul Popular Focsani",
+      "is_derived": true
+    },
+    {
+      "name": "Atrium Cafe",
+      "url": "https://www.iabilet.ro/cauta/?q=Atrium Cafe",
+      "is_derived": true
+    },
+    {
+      "name": "Auditorium Joseph Schmidt - Universitatea Stefan Cel Mare",
+      "url": "https://www.iabilet.ro/cauta/?q=Auditorium Joseph Schmidt - Universitatea Stefan Cel Mare",
+      "is_derived": true
+    },
+    {
+      "name": "Aztek Caffe",
+      "url": "https://www.iabilet.ro/cauta/?q=Aztek Caffe",
+      "is_derived": true
+    },
+    {
+      "name": "BRICKS brasserie & cafe",
+      "url": "https://www.iabilet.ro/cauta/?q=BRICKS brasserie & cafe",
+      "is_derived": true
+    },
+    {
+      "name": "Baroc Cafe Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Baroc Cafe Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Beraria Valhalla",
+      "url": "https://www.iabilet.ro/cauta/?q=Beraria Valhalla",
+      "is_derived": true
+    },
+    {
+      "name": "Berăria La Michele",
+      "url": "https://www.iabilet.ro/cauta/?q=Berăria La Michele",
+      "is_derived": true
+    },
+    {
+      "name": "Berăria Vlad Țepeș",
+      "url": "https://www.iabilet.ro/cauta/?q=Berăria Vlad Țepeș",
+      "is_derived": true
+    },
+    {
+      "name": "Bradford Playhouse",
+      "url": "https://www.iabilet.ro/cauta/?q=Bradford Playhouse",
+      "is_derived": true
+    },
+    {
+      "name": "Brera Bucharest",
+      "url": "https://www.iabilet.ro/cauta/?q=Brera Bucharest",
+      "is_derived": true
+    },
+    {
+      "name": "Brooklyn Food, Drinks & More",
+      "url": "https://www.iabilet.ro/cauta/?q=Brooklyn Food, Drinks & More",
+      "is_derived": true
+    },
+    {
+      "name": "Cafeneaua Artiștilor",
+      "url": "https://www.iabilet.ro/cauta/?q=Cafeneaua Artiștilor",
+      "is_derived": true
+    },
+    {
+      "name": "Capricci",
+      "url": "https://www.iabilet.ro/cauta/?q=Capricci",
+      "is_derived": true
+    },
+    {
+      "name": "Carlitos Comedy Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Carlitos Comedy Club",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Cugireana",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Cugireana",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Municipală de Cultură",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Municipală de Cultură",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Românească Otopeni ",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Românească Otopeni ",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Tineretului",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Tineretului",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Viva - Codlea ",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Viva - Codlea ",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura - Sala Ion Petrovici",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura - Sala Ion Petrovici",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura Codlea",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura Codlea",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura Geo Bogza",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura Geo Bogza",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura Intorsura Buzaului",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura Intorsura Buzaului",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura Ion Creanga",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura Ion Creanga",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura Mangalia",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura Mangalia",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura Radauti",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura Radauti",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor ",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor ",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor Campulung Muscel",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Campulung Muscel",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor Constanta",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Constanta",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor Oradea",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Oradea",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor Pitesti",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Pitesti",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor Ploiesti",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Ploiesti",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Sindicatelor Roman",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Roman",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Studentilor Alba Iulia",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Studentilor Alba Iulia",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Studentilor Cluj-Napoca",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Studentilor Cluj-Napoca",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Studentilor Craiova",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Studentilor Craiova",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Studentilor Iași",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Studentilor Iași",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultură \"Mihail Sadoveanu\" Pașcani",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură \"Mihail Sadoveanu\" Pașcani",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultură a Municipiului \"Mihai Ursachi\", Iaşi",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură a Municipiului \"Mihai Ursachi\", Iaşi",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultură a Tineretului Botoşani",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură a Tineretului Botoşani",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultură ”George Suru”",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură ”George Suru”",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de cultură \"Platon Pardău\"",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de cultură \"Platon Pardău\"",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de cultură a Municipiului Oltenița",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de cultură a Municipiului Oltenița",
+      "is_derived": true
+    },
+    {
+      "name": "Catholic Academy Hamburg",
+      "url": "https://www.iabilet.ro/cauta/?q=Catholic Academy Hamburg",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Arta",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Arta",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Drăgan Muntean",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Drăgan Muntean",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Ion Besoiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Ion Besoiu",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Ion Besoiu - Sala Mica",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Ion Besoiu - Sala Mica",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Mioveni",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Mioveni",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Reduta",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Reduta",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural “Grigore Vasiliu Birlic” Fălticeni",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural “Grigore Vasiliu Birlic” Fălticeni",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul De Cultura Si Arte George Topirceanu",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul De Cultura Si Arte George Topirceanu",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Judetean de Cultura Calarasi - Sala Barbu Stirbei",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Judetean de Cultura Calarasi - Sala Barbu Stirbei",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Multifunctional pentru Tineri",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Multifunctional pentru Tineri",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Multifuncțional Educativ pentru Tineret Jean Constantin",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Multifuncțional Educativ pentru Tineret Jean Constantin",
+      "is_derived": true
+    },
+    {
+      "name": "Centrului Județean de Cultură și Creație Călărași",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrului Județean de Cultură și Creație Călărași",
+      "is_derived": true
+    },
+    {
+      "name": "Cercul Militar Brașov",
+      "url": "https://www.iabilet.ro/cauta/?q=Cercul Militar Brașov",
+      "is_derived": true
+    },
+    {
+      "name": "Chaplin’s Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Chaplin’s Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Chianti",
+      "url": "https://www.iabilet.ro/cauta/?q=Chianti",
+      "is_derived": true
+    },
+    {
+      "name": "CineStar Berlin Hellersdorf ",
+      "url": "https://www.iabilet.ro/cauta/?q=CineStar Berlin Hellersdorf ",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Cityplex Victoria",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Cityplex Victoria",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Dacia",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Dacia",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Independenta",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Independenta",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Mon Amour",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Mon Amour",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Pacea",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Pacea",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Serban Ionescu",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Serban Ionescu",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Teatru Florin Piersic",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Teatru Florin Piersic",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Timis - Timisoara",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Timis - Timisoara",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Unirea",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Unirea",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema ”Sergiu Nicolaescu”",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema ”Sergiu Nicolaescu”",
+      "is_derived": true
+    },
+    {
+      "name": "Cladirea Transilvania",
+      "url": "https://www.iabilet.ro/cauta/?q=Cladirea Transilvania",
+      "is_derived": true
+    },
+    {
+      "name": "Club 99",
+      "url": "https://www.iabilet.ro/cauta/?q=Club 99",
+      "is_derived": true
+    },
+    {
+      "name": "Club Doors",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Doors",
+      "is_derived": true
+    },
+    {
+      "name": "Club Flex",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Flex",
+      "is_derived": true
+    },
+    {
+      "name": "Club Hush",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Hush",
+      "is_derived": true
+    },
+    {
+      "name": "Comics Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Comics Club",
+      "is_derived": true
+    },
+    {
+      "name": "DAS K - KULTUR - UND KONGRESSZENTRUM KORNWESTHEIM - STUTTGART",
+      "url": "https://www.iabilet.ro/cauta/?q=DAS K - KULTUR - UND KONGRESSZENTRUM KORNWESTHEIM - STUTTGART",
+      "is_derived": true
+    },
+    {
+      "name": "Direcția de cultură Oltenița",
+      "url": "https://www.iabilet.ro/cauta/?q=Direcția de cultură Oltenița",
+      "is_derived": true
+    },
+    {
+      "name": "E45 Restobar ",
+      "url": "https://www.iabilet.ro/cauta/?q=E45 Restobar ",
+      "is_derived": true
+    },
+    {
+      "name": "El Mexico",
+      "url": "https://www.iabilet.ro/cauta/?q=El Mexico",
+      "is_derived": true
+    },
+    {
+      "name": "Enoteca Social Bar",
+      "url": "https://www.iabilet.ro/cauta/?q=Enoteca Social Bar",
+      "is_derived": true
+    },
+    {
+      "name": "Fain Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=Fain Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Banatul Timisoara - Sala Capitol",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Banatul Timisoara - Sala Capitol",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Oltenia",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Oltenia",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Paul Constantinescu Ploiesti",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Paul Constantinescu Ploiesti",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica de Stat ",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica de Stat ",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica de Stat Sibiu - Sala Thalia",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica de Stat Sibiu - Sala Thalia",
+      "is_derived": true
+    },
+    {
+      "name": "Garaj Coffee and Spirits",
+      "url": "https://www.iabilet.ro/cauta/?q=Garaj Coffee and Spirits",
+      "is_derived": true
+    },
+    {
+      "name": "Gasthaus Kampenwand",
+      "url": "https://www.iabilet.ro/cauta/?q=Gasthaus Kampenwand",
+      "is_derived": true
+    },
+    {
+      "name": "Grand Irish Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Grand Irish Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Groove ALT SOCIAL BAR",
+      "url": "https://www.iabilet.ro/cauta/?q=Groove ALT SOCIAL BAR",
+      "is_derived": true
+    },
+    {
+      "name": "Hanul Bucovinei",
+      "url": "https://www.iabilet.ro/cauta/?q=Hanul Bucovinei",
+      "is_derived": true
+    },
+    {
+      "name": "Hanul lui Mujdei",
+      "url": "https://www.iabilet.ro/cauta/?q=Hanul lui Mujdei",
+      "is_derived": true
+    },
+    {
+      "name": "Happy Cinema",
+      "url": "https://www.iabilet.ro/cauta/?q=Happy Cinema",
+      "is_derived": true
+    },
+    {
+      "name": "Happy Cinema Bacău",
+      "url": "https://www.iabilet.ro/cauta/?q=Happy Cinema Bacău",
+      "is_derived": true
+    },
+    {
+      "name": "Harlequin By the Lake",
+      "url": "https://www.iabilet.ro/cauta/?q=Harlequin By the Lake",
+      "is_derived": true
+    },
+    {
+      "name": "Harlequin by the Sea",
+      "url": "https://www.iabilet.ro/cauta/?q=Harlequin by the Sea",
+      "is_derived": true
+    },
+    {
+      "name": "Helix Pub Iasi",
+      "url": "https://www.iabilet.ro/cauta/?q=Helix Pub Iasi",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Central-Gradina de vara",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Central-Gradina de vara",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Kristal",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Kristal",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Ramada Sibiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Ramada Sibiu",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Restaurant Phoenix",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Restaurant Phoenix",
+      "is_derived": true
+    },
+    {
+      "name": "Imperial Grill&Music",
+      "url": "https://www.iabilet.ro/cauta/?q=Imperial Grill&Music",
+      "is_derived": true
+    },
+    {
+      "name": "Inspirat",
+      "url": "https://www.iabilet.ro/cauta/?q=Inspirat",
+      "is_derived": true
+    },
+    {
+      "name": "JajaPub Braila",
+      "url": "https://www.iabilet.ro/cauta/?q=JajaPub Braila",
+      "is_derived": true
+    },
+    {
+      "name": "Klausen Pubhouse Cluj",
+      "url": "https://www.iabilet.ro/cauta/?q=Klausen Pubhouse Cluj",
+      "is_derived": true
+    },
+    {
+      "name": "LOG OUT",
+      "url": "https://www.iabilet.ro/cauta/?q=LOG OUT",
+      "is_derived": true
+    },
+    {
+      "name": "La Baza",
+      "url": "https://www.iabilet.ro/cauta/?q=La Baza",
+      "is_derived": true
+    },
+    {
+      "name": "Lloyd's Comedy Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Lloyd's Comedy Club",
+      "is_derived": true
+    },
+    {
+      "name": "Los Amigos",
+      "url": "https://www.iabilet.ro/cauta/?q=Los Amigos",
+      "is_derived": true
+    },
+    {
+      "name": "Lucky Punch",
+      "url": "https://www.iabilet.ro/cauta/?q=Lucky Punch",
+      "is_derived": true
+    },
+    {
+      "name": "Moara Nedelea",
+      "url": "https://www.iabilet.ro/cauta/?q=Moara Nedelea",
+      "is_derived": true
+    },
+    {
+      "name": "Mojo Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Mojo Club",
+      "is_derived": true
+    },
+    {
+      "name": "Morrigan's Coffe & Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Morrigan's Coffe & Pub",
+      "is_derived": true
+    },
+    {
+      "name": "O'Brothers Social Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=O'Brothers Social Pub",
+      "is_derived": true
+    },
+    {
+      "name": "O'Peter's Irish Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=O'Peter's Irish Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Odeïon Kulturforum",
+      "url": "https://www.iabilet.ro/cauta/?q=Odeïon Kulturforum",
+      "is_derived": true
+    },
+    {
+      "name": "Orpheum Nuremberg",
+      "url": "https://www.iabilet.ro/cauta/?q=Orpheum Nuremberg",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Cultural Arad (Filarmonica de Stat Arad)",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Cultural Arad (Filarmonica de Stat Arad)",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Cultural Blaj",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Cultural Blaj",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Culturii",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Culturii",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Culturii Bistrita",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Culturii Bistrita",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Culturii „Teodor Costescu”",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Culturii „Teodor Costescu”",
+      "is_derived": true
+    },
+    {
+      "name": "Pensiunea Dealul Verde",
+      "url": "https://www.iabilet.ro/cauta/?q=Pensiunea Dealul Verde",
+      "is_derived": true
+    },
+    {
+      "name": "Pânze Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Pânze Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Ramore Fresh Food",
+      "url": "https://www.iabilet.ro/cauta/?q=Ramore Fresh Food",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant ''LaDomnizza'' ",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant ''LaDomnizza'' ",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Casa Romaneasca",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Casa Romaneasca",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Ceaunelul Muntenesc ",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Ceaunelul Muntenesc ",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Gradina Snagov",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Gradina Snagov",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Schreberhaus Esslingen",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Schreberhaus Esslingen",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Star",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Star",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Vatra Brasov",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Vatra Brasov",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant im Volkshaus Ebelsberg",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant im Volkshaus Ebelsberg",
+      "is_derived": true
+    },
+    {
+      "name": "Ribs HOUSE",
+      "url": "https://www.iabilet.ro/cauta/?q=Ribs HOUSE",
+      "is_derived": true
+    },
+    {
+      "name": "ST.UP PUB",
+      "url": "https://www.iabilet.ro/cauta/?q=ST.UP PUB",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Aula Magna - Universitatea Danubius din Galati",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Aula Magna - Universitatea Danubius din Galati",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Gloria ",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Gloria ",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Luceafărul",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Luceafărul",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Mare a Consiliului Județean BUZAU ",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Mare a Consiliului Județean BUZAU ",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Palatului",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Palatului",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Polivalenta BTarena",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Polivalenta BTarena",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Traube",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Traube",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Unirii - Cinema Victoria",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Unirii - Cinema Victoria",
+      "is_derived": true
+    },
+    {
+      "name": "Shto",
+      "url": "https://www.iabilet.ro/cauta/?q=Shto",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Anton Pann",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Anton Pann",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Bacovia",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Bacovia",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Jean Bart Tulcea",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Jean Bart Tulcea",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Merlin - Timisoara",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Merlin - Timisoara",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Naţiei",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Naţiei",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Scena",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Scena",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Studio",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Studio",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Tony Bulandra",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Tony Bulandra",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Victoriei (Cinema Sebastian Papaiani)",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Victoriei (Cinema Sebastian Papaiani)",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul de Arta",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul de Arta",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul de Vara Radu Beligan",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul de Vara Radu Beligan",
+      "is_derived": true
+    },
+    {
+      "name": "Terasa Bliss",
+      "url": "https://www.iabilet.ro/cauta/?q=Terasa Bliss",
+      "is_derived": true
+    },
+    {
+      "name": "The Fool",
+      "url": "https://www.iabilet.ro/cauta/?q=The Fool",
+      "is_derived": true
+    },
+    {
+      "name": "The Park Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=The Park Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "The Quatsch Comedy Club",
+      "url": "https://www.iabilet.ro/cauta/?q=The Quatsch Comedy Club",
+      "is_derived": true
+    },
+    {
+      "name": "The Royal Standard Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=The Royal Standard Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Theater Kehrwieder",
+      "url": "https://www.iabilet.ro/cauta/?q=Theater Kehrwieder",
+      "is_derived": true
+    },
+    {
+      "name": "Towers Cafe",
+      "url": "https://www.iabilet.ro/cauta/?q=Towers Cafe",
+      "is_derived": true
+    },
+    {
+      "name": "Trax - Groote Zaal",
+      "url": "https://www.iabilet.ro/cauta/?q=Trax - Groote Zaal",
+      "is_derived": true
+    },
+    {
+      "name": "Unity Theatre",
+      "url": "https://www.iabilet.ro/cauta/?q=Unity Theatre",
+      "is_derived": true
+    },
+    {
+      "name": "Universitatea Politehnica Bucuresti -  Aula Magna",
+      "url": "https://www.iabilet.ro/cauta/?q=Universitatea Politehnica Bucuresti -  Aula Magna",
+      "is_derived": true
+    },
+    {
+      "name": "Vintage Pub-Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=Vintage Pub-Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "Wanderer Hotel & Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=Wanderer Hotel & Restaurant",
+      "is_derived": true
+    }
+  ],
+  "bucuresti": [
+    {
+      "name": "#altfel Unirii",
+      "url": "https://www.iabilet.ro/cauta/?q=#altfel Unirii",
+      "is_derived": true
+    },
+    {
+      "name": "21 Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=21 Pub",
+      "is_derived": true
+    },
+    {
+      "name": "4teen Art Association",
+      "url": "https://www.iabilet.ro/cauta/?q=4teen Art Association",
+      "is_derived": true
+    },
+    {
+      "name": "ARCUB",
+      "url": "https://www.iabilet.ro/cauta/?q=ARCUB",
+      "is_derived": true
+    },
+    {
+      "name": "Arena Națională",
+      "url": "https://www.iabilet.ro/cauta/?q=Arena Națională",
+      "is_derived": true
+    },
+    {
+      "name": "Arenele Romane",
+      "url": "https://www.iabilet.ro/cauta/?q=Arenele Romane",
+      "is_derived": true
+    },
+    {
+      "name": "Ateneul Român",
+      "url": "https://www.iabilet.ro/cauta/?q=Ateneul Român",
+      "is_derived": true
+    },
+    {
+      "name": "Audio Monkey - Hi-Fi & Home Cinema",
+      "url": "https://www.iabilet.ro/cauta/?q=Audio Monkey - Hi-Fi & Home Cinema",
+      "is_derived": true
+    },
+    {
+      "name": "Beat Bar Umanist",
+      "url": "https://www.iabilet.ro/cauta/?q=Beat Bar Umanist",
+      "is_derived": true
+    },
+    {
+      "name": "Beluga Music & Cocktails",
+      "url": "https://www.iabilet.ro/cauta/?q=Beluga Music & Cocktails",
+      "is_derived": true
+    },
+    {
+      "name": "Botanic Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=Botanic Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "Brera Bucharest",
+      "url": "https://www.iabilet.ro/cauta/?q=Brera Bucharest",
+      "is_derived": true
+    },
+    {
+      "name": "Bucuresti",
+      "url": "https://www.iabilet.ro/cauta/?q=Bucuresti",
+      "is_derived": true
+    },
+    {
+      "name": "Bucuresti, Str. Dimitrie Pompeiu 5-7",
+      "url": "https://www.iabilet.ro/cauta/?q=Bucuresti, Str. Dimitrie Pompeiu 5-7",
+      "is_derived": true
+    },
+    {
+      "name": "COSMO DOME",
+      "url": "https://www.iabilet.ro/cauta/?q=COSMO DOME",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Caragiale",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Caragiale",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Românească Otopeni ",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Românească Otopeni ",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultură a Studenților Bucuresti",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură a Studenților Bucuresti",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Independent pentru Arta Animatiei",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Independent pentru Arta Animatiei",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Europa",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Europa",
+      "is_derived": true
+    },
+    {
+      "name": "Circul Metropolitan",
+      "url": "https://www.iabilet.ro/cauta/?q=Circul Metropolitan",
+      "is_derived": true
+    },
+    {
+      "name": "Club 99",
+      "url": "https://www.iabilet.ro/cauta/?q=Club 99",
+      "is_derived": true
+    },
+    {
+      "name": "Club Control",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Control",
+      "is_derived": true
+    },
+    {
+      "name": "Club Mono",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Mono",
+      "is_derived": true
+    },
+    {
+      "name": "Comics Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Comics Club",
+      "is_derived": true
+    },
+    {
+      "name": "Coworkperativa",
+      "url": "https://www.iabilet.ro/cauta/?q=Coworkperativa",
+      "is_derived": true
+    },
+    {
+      "name": "Education Point",
+      "url": "https://www.iabilet.ro/cauta/?q=Education Point",
+      "is_derived": true
+    },
+    {
+      "name": "Encore",
+      "url": "https://www.iabilet.ro/cauta/?q=Encore",
+      "is_derived": true
+    },
+    {
+      "name": "Expirat Halele Carol",
+      "url": "https://www.iabilet.ro/cauta/?q=Expirat Halele Carol",
+      "is_derived": true
+    },
+    {
+      "name": "FF Theatre ",
+      "url": "https://www.iabilet.ro/cauta/?q=FF Theatre ",
+      "is_derived": true
+    },
+    {
+      "name": "Fratelli Studios",
+      "url": "https://www.iabilet.ro/cauta/?q=Fratelli Studios",
+      "is_derived": true
+    },
+    {
+      "name": "Gilda Music Lounge",
+      "url": "https://www.iabilet.ro/cauta/?q=Gilda Music Lounge",
+      "is_derived": true
+    },
+    {
+      "name": "Goethe-Institut România",
+      "url": "https://www.iabilet.ro/cauta/?q=Goethe-Institut România",
+      "is_derived": true
+    },
+    {
+      "name": "Gradina Alhambra",
+      "url": "https://www.iabilet.ro/cauta/?q=Gradina Alhambra",
+      "is_derived": true
+    },
+    {
+      "name": "HALO Events Center, Romexpo",
+      "url": "https://www.iabilet.ro/cauta/?q=HALO Events Center, Romexpo",
+      "is_derived": true
+    },
+    {
+      "name": "Hanu' Lui Manuc",
+      "url": "https://www.iabilet.ro/cauta/?q=Hanu' Lui Manuc",
+      "is_derived": true
+    },
+    {
+      "name": "Hard Rock Cafe",
+      "url": "https://www.iabilet.ro/cauta/?q=Hard Rock Cafe",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Novotel",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Novotel",
+      "is_derived": true
+    },
+    {
+      "name": "LIDO Theatre, Events and Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=LIDO Theatre, Events and Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "La Mama - Clubul Țăranului",
+      "url": "https://www.iabilet.ro/cauta/?q=La Mama - Clubul Țăranului",
+      "is_derived": true
+    },
+    {
+      "name": "La Mița Biciclista Stabiliment Creativ",
+      "url": "https://www.iabilet.ro/cauta/?q=La Mița Biciclista Stabiliment Creativ",
+      "is_derived": true
+    },
+    {
+      "name": "Laminor Arena",
+      "url": "https://www.iabilet.ro/cauta/?q=Laminor Arena",
+      "is_derived": true
+    },
+    {
+      "name": "Librăria Humanitas Lipscani",
+      "url": "https://www.iabilet.ro/cauta/?q=Librăria Humanitas Lipscani",
+      "is_derived": true
+    },
+    {
+      "name": "Lloyd's Comedy Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Lloyd's Comedy Club",
+      "is_derived": true
+    },
+    {
+      "name": "Lumiland - Teatru pentru copii",
+      "url": "https://www.iabilet.ro/cauta/?q=Lumiland - Teatru pentru copii",
+      "is_derived": true
+    },
+    {
+      "name": "Mojo Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Mojo Club",
+      "is_derived": true
+    },
+    {
+      "name": "Movieplex Cinema din Plaza Romania",
+      "url": "https://www.iabilet.ro/cauta/?q=Movieplex Cinema din Plaza Romania",
+      "is_derived": true
+    },
+    {
+      "name": "NJoy Club & Garden",
+      "url": "https://www.iabilet.ro/cauta/?q=NJoy Club & Garden",
+      "is_derived": true
+    },
+    {
+      "name": "Naive",
+      "url": "https://www.iabilet.ro/cauta/?q=Naive",
+      "is_derived": true
+    },
+    {
+      "name": "Nest Hub Baicului",
+      "url": "https://www.iabilet.ro/cauta/?q=Nest Hub Baicului",
+      "is_derived": true
+    },
+    {
+      "name": "Noar Hall - Sala Palatului",
+      "url": "https://www.iabilet.ro/cauta/?q=Noar Hall - Sala Palatului",
+      "is_derived": true
+    },
+    {
+      "name": "Nod Makerspace",
+      "url": "https://www.iabilet.ro/cauta/?q=Nod Makerspace",
+      "is_derived": true
+    },
+    {
+      "name": "ONE Club",
+      "url": "https://www.iabilet.ro/cauta/?q=ONE Club",
+      "is_derived": true
+    },
+    {
+      "name": "OXYA Club",
+      "url": "https://www.iabilet.ro/cauta/?q=OXYA Club",
+      "is_derived": true
+    },
+    {
+      "name": "Opera Comica pentru Copii",
+      "url": "https://www.iabilet.ro/cauta/?q=Opera Comica pentru Copii",
+      "is_derived": true
+    },
+    {
+      "name": "Opera Națională București",
+      "url": "https://www.iabilet.ro/cauta/?q=Opera Națională București",
+      "is_derived": true
+    },
+    {
+      "name": "POINT HUB",
+      "url": "https://www.iabilet.ro/cauta/?q=POINT HUB",
+      "is_derived": true
+    },
+    {
+      "name": "Palais Ghica Victoria",
+      "url": "https://www.iabilet.ro/cauta/?q=Palais Ghica Victoria",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Bragadiru",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Bragadiru",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul National al Copiilor",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul National al Copiilor",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Parlamentului",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Parlamentului",
+      "is_derived": true
+    },
+    {
+      "name": "Phoenicia Grand Hotel",
+      "url": "https://www.iabilet.ro/cauta/?q=Phoenicia Grand Hotel",
+      "is_derived": true
+    },
+    {
+      "name": "Princess Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Princess Club",
+      "is_derived": true
+    },
+    {
+      "name": "Quantic",
+      "url": "https://www.iabilet.ro/cauta/?q=Quantic",
+      "is_derived": true
+    },
+    {
+      "name": "Ramore Fresh Food",
+      "url": "https://www.iabilet.ro/cauta/?q=Ramore Fresh Food",
+      "is_derived": true
+    },
+    {
+      "name": "Romexpo",
+      "url": "https://www.iabilet.ro/cauta/?q=Romexpo",
+      "is_derived": true
+    },
+    {
+      "name": "Romexpo - Pavilionul Central",
+      "url": "https://www.iabilet.ro/cauta/?q=Romexpo - Pavilionul Central",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Dalles",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Dalles",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Gloria ",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Gloria ",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Luceafărul",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Luceafărul",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Palatului",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Palatului",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Polivalentă",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Polivalentă",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Radio ",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Radio ",
+      "is_derived": true
+    },
+    {
+      "name": "Studio 59",
+      "url": "https://www.iabilet.ro/cauta/?q=Studio 59",
+      "is_derived": true
+    },
+    {
+      "name": "Sushi Hub",
+      "url": "https://www.iabilet.ro/cauta/?q=Sushi Hub",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Amzei",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Amzei",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Apropo",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Apropo",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Bulandra - Sala Liviu Ciulei",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Bulandra - Sala Liviu Ciulei",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Coquette",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Coquette",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Improteca",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Improteca",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul In Culise",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul In Culise",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Infinit",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Infinit",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Metropolis, Sala Mare",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Metropolis, Sala Mare",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Mic",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Mic",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul National Bucuresti",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul National Bucuresti",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul National Bucuresti - Sala Studio",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul National Bucuresti - Sala Studio",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Nottara",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Nottara",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Rosu",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Rosu",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul de Comedie - Sala Radu Beligan",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul de Comedie - Sala Radu Beligan",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul de Revista Constantin Tanase",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul de Revista Constantin Tanase",
+      "is_derived": true
+    },
+    {
+      "name": "Terasa Florilor",
+      "url": "https://www.iabilet.ro/cauta/?q=Terasa Florilor",
+      "is_derived": true
+    },
+    {
+      "name": "The Coffee Shop Constitutiei",
+      "url": "https://www.iabilet.ro/cauta/?q=The Coffee Shop Constitutiei",
+      "is_derived": true
+    },
+    {
+      "name": "The Fool",
+      "url": "https://www.iabilet.ro/cauta/?q=The Fool",
+      "is_derived": true
+    },
+    {
+      "name": "The Great Hill",
+      "url": "https://www.iabilet.ro/cauta/?q=The Great Hill",
+      "is_derived": true
+    },
+    {
+      "name": "The L!VEing Room",
+      "url": "https://www.iabilet.ro/cauta/?q=The L!VEing Room",
+      "is_derived": true
+    },
+    {
+      "name": "The Pub - Universitatii",
+      "url": "https://www.iabilet.ro/cauta/?q=The Pub - Universitatii",
+      "is_derived": true
+    },
+    {
+      "name": "Timp pentru Tine - Vila Florilor",
+      "url": "https://www.iabilet.ro/cauta/?q=Timp pentru Tine - Vila Florilor",
+      "is_derived": true
+    },
+    {
+      "name": "True Club",
+      "url": "https://www.iabilet.ro/cauta/?q=True Club",
+      "is_derived": true
+    },
+    {
+      "name": "Universitatea Politehnica Bucuresti -  Aula Magna",
+      "url": "https://www.iabilet.ro/cauta/?q=Universitatea Politehnica Bucuresti -  Aula Magna",
+      "is_derived": true
+    }
+  ],
+  "timisoara": [
+    {
+      "name": " Teatrul National Mihai Eminescu Timisoara",
+      "url": "https://www.iabilet.ro/cauta/?q= Teatrul National Mihai Eminescu Timisoara",
+      "is_derived": true
+    },
+    {
+      "name": "Brooklyn Food, Drinks & More",
+      "url": "https://www.iabilet.ro/cauta/?q=Brooklyn Food, Drinks & More",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Tineretului",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Tineretului",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Tineretului FITT Timișoara",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Tineretului FITT Timișoara",
+      "is_derived": true
+    },
+    {
+      "name": "Cinema Timis - Timisoara",
+      "url": "https://www.iabilet.ro/cauta/?q=Cinema Timis - Timisoara",
+      "is_derived": true
+    },
+    {
+      "name": "D'Arc",
+      "url": "https://www.iabilet.ro/cauta/?q=D'Arc",
+      "is_derived": true
+    },
+    {
+      "name": "Database",
+      "url": "https://www.iabilet.ro/cauta/?q=Database",
+      "is_derived": true
+    },
+    {
+      "name": "Escape Games Arena",
+      "url": "https://www.iabilet.ro/cauta/?q=Escape Games Arena",
+      "is_derived": true
+    },
+    {
+      "name": "Exit Reality ",
+      "url": "https://www.iabilet.ro/cauta/?q=Exit Reality ",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Banatul - Sala Capitol",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Banatul - Sala Capitol",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Banatul Timisoara - Sala Capitol",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Banatul Timisoara - Sala Capitol",
+      "is_derived": true
+    },
+    {
+      "name": "Fratelli Lounge & Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Fratelli Lounge & Club",
+      "is_derived": true
+    },
+    {
+      "name": "Iulius Congress Hall",
+      "url": "https://www.iabilet.ro/cauta/?q=Iulius Congress Hall",
+      "is_derived": true
+    },
+    {
+      "name": "Muzeul Satului Bănățean",
+      "url": "https://www.iabilet.ro/cauta/?q=Muzeul Satului Bănățean",
+      "is_derived": true
+    },
+    {
+      "name": "Nemesis Art Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Nemesis Art Club",
+      "is_derived": true
+    },
+    {
+      "name": "No Name",
+      "url": "https://www.iabilet.ro/cauta/?q=No Name",
+      "is_derived": true
+    },
+    {
+      "name": "Opera Națională Română Timișoara",
+      "url": "https://www.iabilet.ro/cauta/?q=Opera Națională Română Timișoara",
+      "is_derived": true
+    },
+    {
+      "name": "Pădurea VERDE",
+      "url": "https://www.iabilet.ro/cauta/?q=Pădurea VERDE",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Sporturilor \"Constantin Jude\" ",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Sporturilor \"Constantin Jude\" ",
+      "is_derived": true
+    },
+    {
+      "name": "Stadion Stiinta",
+      "url": "https://www.iabilet.ro/cauta/?q=Stadion Stiinta",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Merlin - Timisoara",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Merlin - Timisoara",
+      "is_derived": true
+    },
+    {
+      "name": "TramTur Timişoara",
+      "url": "https://www.iabilet.ro/cauta/?q=TramTur Timişoara",
+      "is_derived": true
+    },
+    {
+      "name": "ibis Timisoara City Center",
+      "url": "https://www.iabilet.ro/cauta/?q=ibis Timisoara City Center",
+      "is_derived": true
+    },
+    {
+      "name": "În Spatele Casei",
+      "url": "https://www.iabilet.ro/cauta/?q=În Spatele Casei",
+      "is_derived": true
+    }
+  ],
+  "sibiu": [
+    {
+      "name": "Atrium Cafe",
+      "url": "https://www.iabilet.ro/cauta/?q=Atrium Cafe",
+      "is_derived": true
+    },
+    {
+      "name": "Biserica Fortifiata Hosman",
+      "url": "https://www.iabilet.ro/cauta/?q=Biserica Fortifiata Hosman",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Ion Besoiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Ion Besoiu",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Ion Besoiu - Sala Mica",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Ion Besoiu - Sala Mica",
+      "is_derived": true
+    },
+    {
+      "name": "Fain Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=Fain Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica de Stat Sibiu - Sala Thalia",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica de Stat Sibiu - Sala Thalia",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Ramada - Sala Atlas",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Ramada - Sala Atlas",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Ramada Sibiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Ramada Sibiu",
+      "is_derived": true
+    },
+    {
+      "name": "Inspirat",
+      "url": "https://www.iabilet.ro/cauta/?q=Inspirat",
+      "is_derived": true
+    },
+    {
+      "name": "Junior Stem Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Junior Stem Club",
+      "is_derived": true
+    },
+    {
+      "name": "L`Autentica Pizza Napoletana",
+      "url": "https://www.iabilet.ro/cauta/?q=L`Autentica Pizza Napoletana",
+      "is_derived": true
+    },
+    {
+      "name": "La Arhive",
+      "url": "https://www.iabilet.ro/cauta/?q=La Arhive",
+      "is_derived": true
+    },
+    {
+      "name": "Mercure Sibiu Arsenal",
+      "url": "https://www.iabilet.ro/cauta/?q=Mercure Sibiu Arsenal",
+      "is_derived": true
+    },
+    {
+      "name": "Muzeul National Brukenthal",
+      "url": "https://www.iabilet.ro/cauta/?q=Muzeul National Brukenthal",
+      "is_derived": true
+    },
+    {
+      "name": "Oldies Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Oldies Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Olivia's Trattoria",
+      "url": "https://www.iabilet.ro/cauta/?q=Olivia's Trattoria",
+      "is_derived": true
+    },
+    {
+      "name": "Ramore Fresh Food Sibiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Ramore Fresh Food Sibiu",
+      "is_derived": true
+    },
+    {
+      "name": "Rock N'Bike Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Rock N'Bike Club",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Transilvania",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Transilvania",
+      "is_derived": true
+    },
+    {
+      "name": "Sibiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Sibiu",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Național „Radu Stanca” din Sibiu",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Național „Radu Stanca” din Sibiu",
+      "is_derived": true
+    },
+    {
+      "name": "Voodoo Lounge",
+      "url": "https://www.iabilet.ro/cauta/?q=Voodoo Lounge",
+      "is_derived": true
+    }
+  ],
+  "alexandria": [
+    {
+      "name": "Centrul Multifunctional pentru Tineri",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Multifunctional pentru Tineri",
+      "is_derived": true
+    }
+  ],
+  "pitesti": [
+    {
+      "name": "Casa de Cultura a Sindicatelor Pitesti",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Sindicatelor Pitesti",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Doina Argeșului",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Doina Argeșului",
+      "is_derived": true
+    },
+    {
+      "name": "Club Hush",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Hush",
+      "is_derived": true
+    },
+    {
+      "name": "E45 Restobar ",
+      "url": "https://www.iabilet.ro/cauta/?q=E45 Restobar ",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Pitești",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Pitești",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Victoria",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Victoria",
+      "is_derived": true
+    },
+    {
+      "name": "Ramore Fresh Food",
+      "url": "https://www.iabilet.ro/cauta/?q=Ramore Fresh Food",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Lumina",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Lumina",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Polivalentă PITEȘTI-ARENA",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Polivalentă PITEȘTI-ARENA",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Alexandru Davila",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Alexandru Davila",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Victoriei (Cinema Sebastian Papaiani)",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Victoriei (Cinema Sebastian Papaiani)",
+      "is_derived": true
+    }
+  ],
+  "brasov": [
+    {
+      "name": "CUB Velo Hub",
+      "url": "https://www.iabilet.ro/cauta/?q=CUB Velo Hub",
+      "is_derived": true
+    },
+    {
+      "name": "Casa Viva - Codlea ",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa Viva - Codlea ",
+      "is_derived": true
+    },
+    {
+      "name": "Centrul Cultural Reduta",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Reduta",
+      "is_derived": true
+    },
+    {
+      "name": "Cercul Militar Brașov",
+      "url": "https://www.iabilet.ro/cauta/?q=Cercul Militar Brașov",
+      "is_derived": true
+    },
+    {
+      "name": "Club Times",
+      "url": "https://www.iabilet.ro/cauta/?q=Club Times",
+      "is_derived": true
+    },
+    {
+      "name": "Cramele lui Decebal",
+      "url": "https://www.iabilet.ro/cauta/?q=Cramele lui Decebal",
+      "is_derived": true
+    },
+    {
+      "name": "Filarmonica Brașov - Sala Patria",
+      "url": "https://www.iabilet.ro/cauta/?q=Filarmonica Brașov - Sala Patria",
+      "is_derived": true
+    },
+    {
+      "name": "HB2 Studio",
+      "url": "https://www.iabilet.ro/cauta/?q=HB2 Studio",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Kolping",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Kolping",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel Kronwell",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel Kronwell",
+      "is_derived": true
+    },
+    {
+      "name": "Kruhnen Musik Halle",
+      "url": "https://www.iabilet.ro/cauta/?q=Kruhnen Musik Halle",
+      "is_derived": true
+    },
+    {
+      "name": "Lux Divina",
+      "url": "https://www.iabilet.ro/cauta/?q=Lux Divina",
+      "is_derived": true
+    },
+    {
+      "name": "Marabou Resort ",
+      "url": "https://www.iabilet.ro/cauta/?q=Marabou Resort ",
+      "is_derived": true
+    },
+    {
+      "name": "O'Peter's Irish Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=O'Peter's Irish Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Restaurant Platinvm",
+      "url": "https://www.iabilet.ro/cauta/?q=Restaurant Platinvm",
+      "is_derived": true
+    },
+    {
+      "name": "Rockstadt",
+      "url": "https://www.iabilet.ro/cauta/?q=Rockstadt",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Sporturilor Dumitru Popescu Colibași ",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Sporturilor Dumitru Popescu Colibași ",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul Sică Alexandrescu",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul Sică Alexandrescu",
+      "is_derived": true
+    }
+  ],
+  "pascani": [
+    {
+      "name": "Casa de Cultură \"Mihail Sadoveanu\" Pașcani",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură \"Mihail Sadoveanu\" Pașcani",
+      "is_derived": true
+    }
+  ],
+  "hunedoara": [
+    {
+      "name": "Centrul Cultural Corviniana",
+      "url": "https://www.iabilet.ro/cauta/?q=Centrul Cultural Corviniana",
+      "is_derived": true
+    },
+    {
+      "name": "Urban By Werk",
+      "url": "https://www.iabilet.ro/cauta/?q=Urban By Werk",
+      "is_derived": true
+    },
+    {
+      "name": "Vintage Pub-Restaurant",
+      "url": "https://www.iabilet.ro/cauta/?q=Vintage Pub-Restaurant",
+      "is_derived": true
+    },
+    {
+      "name": "Werk Events",
+      "url": "https://www.iabilet.ro/cauta/?q=Werk Events",
+      "is_derived": true
+    }
+  ],
+  "iasi": [
+    {
+      "name": "Ateneul National Iasi",
+      "url": "https://www.iabilet.ro/cauta/?q=Ateneul National Iasi",
+      "is_derived": true
+    },
+    {
+      "name": "Aula Bibliotecii Centrala Universitara Mihai Eminescu",
+      "url": "https://www.iabilet.ro/cauta/?q=Aula Bibliotecii Centrala Universitara Mihai Eminescu",
+      "is_derived": true
+    },
+    {
+      "name": "Aula Bibliotecii Centrale Universitare \"Mihai Eminescu\"",
+      "url": "https://www.iabilet.ro/cauta/?q=Aula Bibliotecii Centrale Universitare \"Mihai Eminescu\"",
+      "is_derived": true
+    },
+    {
+      "name": "Baia Turcească",
+      "url": "https://www.iabilet.ro/cauta/?q=Baia Turcească",
+      "is_derived": true
+    },
+    {
+      "name": "Cafeneaua Negru Zi Coffee & Arts",
+      "url": "https://www.iabilet.ro/cauta/?q=Cafeneaua Negru Zi Coffee & Arts",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultura a Studentilor Iași",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultura a Studentilor Iași",
+      "is_derived": true
+    },
+    {
+      "name": "Casa de Cultură a Municipiului \"Mihai Ursachi\", Iaşi",
+      "url": "https://www.iabilet.ro/cauta/?q=Casa de Cultură a Municipiului \"Mihai Ursachi\", Iaşi",
+      "is_derived": true
+    },
+    {
+      "name": "Catedrala Romano-Catolică „Sfânta Fecioară Maria, Regina”",
+      "url": "https://www.iabilet.ro/cauta/?q=Catedrala Romano-Catolică „Sfânta Fecioară Maria, Regina”",
+      "is_derived": true
+    },
+    {
+      "name": "Classix Festival - Iasi",
+      "url": "https://www.iabilet.ro/cauta/?q=Classix Festival - Iasi",
+      "is_derived": true
+    },
+    {
+      "name": "Fratelli Lounge & Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Fratelli Lounge & Club",
+      "is_derived": true
+    },
+    {
+      "name": "Helix Pub Iasi",
+      "url": "https://www.iabilet.ro/cauta/?q=Helix Pub Iasi",
+      "is_derived": true
+    },
+    {
+      "name": "Hotel International",
+      "url": "https://www.iabilet.ro/cauta/?q=Hotel International",
+      "is_derived": true
+    },
+    {
+      "name": "La Baza",
+      "url": "https://www.iabilet.ro/cauta/?q=La Baza",
+      "is_derived": true
+    },
+    {
+      "name": "Legend Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Legend Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Master Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Master Club",
+      "is_derived": true
+    },
+    {
+      "name": "Mina Museum Iasi",
+      "url": "https://www.iabilet.ro/cauta/?q=Mina Museum Iasi",
+      "is_derived": true
+    },
+    {
+      "name": "Palatul Culturii",
+      "url": "https://www.iabilet.ro/cauta/?q=Palatul Culturii",
+      "is_derived": true
+    },
+    {
+      "name": "Rock'n'Rolla",
+      "url": "https://www.iabilet.ro/cauta/?q=Rock'n'Rolla",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Polivalenta",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Polivalenta",
+      "is_derived": true
+    },
+    {
+      "name": "Sala Unirii - Cinema Victoria",
+      "url": "https://www.iabilet.ro/cauta/?q=Sala Unirii - Cinema Victoria",
+      "is_derived": true
+    },
+    {
+      "name": "T Zero Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=T Zero Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Teatrul National Vasile Alecsandri Iași",
+      "url": "https://www.iabilet.ro/cauta/?q=Teatrul National Vasile Alecsandri Iași",
+      "is_derived": true
+    },
+    {
+      "name": "Underground Pub",
+      "url": "https://www.iabilet.ro/cauta/?q=Underground Pub",
+      "is_derived": true
+    },
+    {
+      "name": "Urbana Club",
+      "url": "https://www.iabilet.ro/cauta/?q=Urbana Club",
+      "is_derived": true
+    },
+    {
+      "name": "V7 Startup Studio Palas",
+      "url": "https://www.iabilet.ro/cauta/?q=V7 Startup Studio Palas",
+      "is_derived": true
+    }
+  ]
+}

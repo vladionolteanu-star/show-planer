@@ -34,9 +34,24 @@ def get_cached_data(prefix, key):
 def save_to_cache(prefix, key, data):
     if not os.path.exists(CACHE_DIR):
         os.makedirs(CACHE_DIR)
-        
-    filename = get_cache_key(prefix, key)
-    filepath = os.path.join(CACHE_DIR, filename)
-    
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False)
+    cache_key = get_cache_key(prefix, key)
+    filepath = os.path.join(CACHE_DIR, cache_key)
+    try:
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f)
+    except Exception as e:
+        print(f"Cache write error: {e}")
+
+def clear_all_cache():
+    count = 0
+    if not os.path.exists(CACHE_DIR):
+        return 0
+    for filename in os.listdir(CACHE_DIR):
+        file_path = os.path.join(CACHE_DIR, filename)
+        try:
+            if os.path.isfile(file_path):
+                os.unlink(file_path)
+                count += 1
+        except Exception as e:
+            print(f"Error deleting {file_path}: {e}")
+    return count

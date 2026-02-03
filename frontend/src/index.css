@@ -1,13 +1,31 @@
 :root {
-  --bg-dark: #121212;
-  --bg-card: #1e1e1e;
-  --text-primary: #e0e0e0;
-  --text-secondary: #a0a0a0;
-  --accent-red: #ff2a6d;
-  /* Neon Red for Standup */
-  --accent-blue: #05d9e8;
-  /* Cyan for Tech/Other */
-  --border-color: #333;
+  /* PROFESSIONAL BLUE THEME (APPROVED) */
+  --bg-dark: #020617;
+  /* Slate 950 - Deep Matte Background */
+  --bg-card: #0f172a;
+  /* Slate 900 - Rich Card Background */
+  --text-primary: #f1f5f9;
+  /* Slate 100 - High Contrast Text */
+  --text-secondary: #94a3b8;
+  /* Slate 400 - Muted Text */
+
+  --accent-red: #3b82f6;
+  /* ROYAL BLUE (Primary Action) */
+  --accent-blue: #0ea5e9;
+  /* SKY BLUE (Secondary/Info) */
+  --success: #10b981;
+  /* EMERALD (Success/Price) */
+
+  --border-color: #1e293b;
+  /* Slate 800 - Subtle Borders */
+  --weekend-bg: rgba(59, 130, 246, 0.04);
+  /* Very subtle blue tint for weekends */
+}
+
+/* Weekend Delimiters */
+.fc-day-sat,
+.fc-day-sun {
+  background-color: var(--weekend-bg) !important;
 }
 
 body {
@@ -178,13 +196,33 @@ body {
 .calendar-view {
   flex: 1;
   padding: 20px;
-  overflow-y: auto;
+  overflow: hidden;
+  /* Lock parent scroll to enable sticky headers */
+  display: flex;
+  flex-direction: column;
 }
 
 .fc {
   background: var(--bg-card);
   padding: 20px;
   border-radius: 12px;
+  height: 100%;
+  /* Force full height for internal scrolling */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.fc-view-harness {
+  flex: 1;
+  overflow: hidden;
+  background: var(--bg-dark);
+  /* Ensure background behind events */
+}
+
+.fc-header-toolbar {
+  flex-shrink: 0;
+  /* Prevent toolbar shrinking */
 }
 
 .fc-theme-standard td,
@@ -208,66 +246,357 @@ body {
 }
 
 /* Event Styles */
-.fc-event {
-  border: none;
-  border-radius: 4px;
-  font-size: 11px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  margin-bottom: 2px;
-  white-space: normal !important;
-  /* Allow text wrapping */
-  overflow: hidden;
-  min-height: 40px;
-  /* Ensure space for image */
+/* Standard Event - Minimalist */
+.standard-event {
+  background-color: transparent !important;
+  border-left: 2px solid #444;
+  transition: all 0.2s ease;
+  margin-bottom: 2px !important;
+  min-height: 20px !important;
+  /* Smaller min-height for text only */
+}
+
+.standard-event:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-left-color: #888;
+  opacity: 1 !important;
+}
+
+/* Stand-Up Event - Premium Card */
+.standup-event {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%) !important;
+  border: 1px solid #333;
+  border-radius: 8px !important;
+  margin-bottom: 8px !important;
+  /* Spacing between big cards */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 80px !important;
   display: flex !important;
+  align-items: flex-start;
+  position: relative !important;
+  /* For absolute price tag */
+  overflow: hidden !important;
+  /* Prevent text leak */
+}
+
+/* ... existing hover styles ... */
+
+.standup-event:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6) !important;
+  border-color: #ff2a6d;
+  z-index: 10;
+  overflow: visible !important;
+  /* Allow popout effects on hover only if needed, but risky for layout */
+}
+
+/* ... existing .fc-event styles ... */
+
+/* Price Tag */
+.price-tag {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background-color: #00ff9d;
+  color: #000;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 255, 157, 0.6);
+  letter-spacing: -0.5px;
+  z-index: 20;
+  /* High Z-Index to stay on top */
+  pointer-events: none;
+  /* Let clicks pass through to event */
+}
+
+/* TOUR BUILDER STYLES */
+.tour-builder-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  height: 100%;
+  background: #121212;
+}
+
+.tb-sidebar {
+  width: 250px;
+  background: #1e1e1e;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.tb-city-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.tb-city-draggable {
+  background: #2a2a2a;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: grab;
+  border: 1px solid #444;
+  font-weight: 500;
+}
+
+.tb-city-draggable:active {
+  cursor: grabbing;
+  background: #333;
+}
+
+.tb-timeline-area {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tb-timeline {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  /* Gaps handled by route connector */
+}
+
+.tb-stop-card {
+  background: #1e1e1e;
+  border: 2px dashed #444;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.2s;
+  min-height: 80px;
+  color: #ccc;
+}
+
+.tb-stop-card.filled {
+  border-style: solid;
+  border-color: #ff2a6d;
+  background: linear-gradient(135deg, #1e1e1e 0%, #252525 100%);
+  color: white;
+}
+
+.tb-date {
+  font-weight: 700;
+  color: #888;
+  width: 60px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.tb-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.fc-event-main {
-  padding: 2px;
-  width: 100%;
+.tb-placeholder {
+  color: #555;
+  font-style: italic;
 }
 
-.fc-event-title {
-  font-weight: 600;
+.tb-city-name {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
 }
 
-/* Loading functionality */
-.loader-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+.tb-btn-remove {
+  background: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.tb-btn-remove:hover {
+  color: red;
+}
+
+.tb-btn-add {
+  background: #333;
+  border: 1px solid #555;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Route Connector */
+.route-connector {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
-  backdrop-filter: blur(5px);
+  height: 60px;
+  position: relative;
 }
 
-.spinner {
-  width: 50px;
-  height: 50px;
-  border: 4px solid #333;
-  border-top-color: var(--accent-red);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
+.route-line {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #444;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
-.spinner-small {
-  width: 20px;
-  height: 20px;
-  border: 3px solid #444;
-  border-top-color: var(--accent-blue);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+.route-badge {
+  position: relative;
+  z-index: 2;
+  background: #111;
+  border: 1px solid #444;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  color: #aaa;
+  text-align: center;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+  .city-selector {
+    width: 100% !important;
+    min-width: 100% !important;
   }
+
+  .header {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 15px !important;
+    padding-bottom: 20px;
+  }
+}
+
+/* =========================================
+   TOUR BUILDER / BOOKING MANAGER
+   ========================================= */
+.tb-sidebar-tabs {
+  display: flex;
+  border-bottom: 1px solid #333;
+  margin-bottom: 15px;
+}
+
+.tb-tab {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #888;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.tb-tab.active {
+  color: var(--accent-blue);
+  border-bottom: 2px solid var(--accent-blue);
+  background: rgba(0, 150, 255, 0.05);
+}
+
+.tb-draggable {
+  padding: 8px 12px;
+  background: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  cursor: grab;
+  font-size: 13px;
+  color: #ddd;
+  transition: transform 0.1s;
+}
+
+.tb-draggable:active {
+  transform: scale(0.98);
+  background: #444;
+}
+
+.item-city {
+  border-left: 3px solid #ff2a6d;
+}
+
+.item-artist {
+  border-left: 3px solid #00ff9d;
+}
+
+.tb-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #333;
+}
+
+.tb-city-badge {
+  background: #ff2a6d;
+  color: black;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tb-lineup-area {
+  min-height: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border: 1px dashed #444;
+}
+
+.tb-artist-chip {
+  background: #00ff9d;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.remove-x {
+  cursor: pointer;
+  opacity: 0.6;
+  font-weight: 900;
+}
+
+.remove-x:hover {
+  opacity: 1;
+}
+
+.tb-artist-placeholder,
+.tb-placeholder-text {
+  color: #555;
+  font-size: 12px;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
 }

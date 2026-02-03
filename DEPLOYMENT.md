@@ -84,3 +84,7 @@ Aplicația ta este acum live. Poți trimite link-ul de Vercel oricui!
 
 ### Note Importante:
 *   Pe planul Free de la Render, serverul Backend "adoarme" dacă nu este folosit 15 minute. Când cineva intră pe site după o pauză, prima încărcare poate dura ~30-50 secunde până se trezește serverul.
+
+
+Start-Process cmd -ArgumentList "/k cd backend && python app.py"; Start-Process cmd -ArgumentList "/k cd frontend && npm run dev"; Start-Sleep -s 5; Start-Process "http://localhost:5173"
+Start-Process cmd -ArgumentList "/k cd backend && python app.py"; Start-Process cmd -ArgumentList "/k cd frontend && npm run dev"; Start-Sleep -s 5; Start-Process "http://localhost:5173"
