@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     async function loadCities() {
       try {
-        const res = await axios.get('http://127.0.0.1:5000/api/search_cities?q=all');
+        const res = await axios.get('https://show-backend-vhwo.onrender.com/api/search_cities?q=all');
         setAllCities(res.data);
       } catch {
         console.error("Could not load cities list");
@@ -48,8 +48,8 @@ function App() {
 
       try {
         const [eventRes, locRes] = await Promise.all([
-          axios.get(`http://127.0.0.1:5000/api/events?city=${city.slug}`),
-          axios.get(`http://127.0.0.1:5000/api/locations?city=${city.slug}`)
+          axios.get(`https://show-backend-vhwo.onrender.com/api/events?city=${city.slug}`),
+          axios.get(`https://show-backend-vhwo.onrender.com/api/locations?city=${city.slug}`)
         ]);
 
         if (active) {
@@ -115,7 +115,7 @@ function App() {
       try {
         // Fetch global stand-up events to populate the master artist list
         // We use a separate request so it doesn't block the initial city load
-        const res = await axios.get('http://127.0.0.1:5000/api/events?city=all');
+        const res = await axios.get('https://show-backend-vhwo.onrender.com/api/events?city=all');
 
         const extracted = new Set();
         res.data.forEach(e => {
